@@ -1,0 +1,34 @@
+{
+  "title": "Estratégias para o Shen",
+  "statisticshen": "Estatísticas",
+
+  "summary": {
+    "title": "Sumário",
+    "statistics": "Estatísticas",
+    "basic": "Basico",
+    "Abilities": "Habilidades"
+  },
+
+  "KiBarrier": {
+    "title": "Barreira de Ki",
+    "Innate": "Inato:",
+    "descricao1": "Após concluir os efeitos de uma habilidade, Shen concede a si mesmo um escudo por 47 - 120 (baseado no nível) (+ 13% de vida bônus) por 2.5 segundos. Se Shen atingir pelo menos um outro campeão com uma habilidade, o tempo de recarga de Barreira de Ki é reduzido em 4 - 8 segundos (baseado no nível).",
+    "descricao2": "Shen manifesta uma Lâmina Espiritual que ele pode controlar com Ataque do Crepúsculo e Refúgio do Espírito."
+},
+
+
+  "navbar": {
+    "title": "Estratégias para o Shen",
+    "language": "Linguagem:"
+  },
+  "header": {
+    "title": "Welcome to Masfasfy Website!",
+    "subtitle": "Discover our seasfasfrvices."
+  },
+  "about": {
+    "text": "This is a simplsdasdafasfe single-page website."
+  },
+  "footer": {
+    "copyright": "©"
+  }
+}

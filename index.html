@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title data-i18n="title">Estratégias para o Shen</title>
+    <link rel="stylesheet" href="/src/assets/styles/main.css">
+</head>
+<body>
+
+    <nav>
+        <h2 data-i18n="navbar.title">Meu Site</h2>
+        <ul class="lang-selector">
+            <li>
+                <span data-i18n="navbar.language">Idioma:</span>
+                <select id="lang-selector">
+                    <option value="en">English</option>
+                    <option value="pt-br">Português</option>
+                    <option value="es">Español</option>
+                </select>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <header>
+            <h1 data-i18n="header.title">Bem-vindo ao Meu Site!</h1>
+            <p data-i18n="header.subtitle">Descubra nossos serviços.</p>
+        </header>
+
+        <div class="sumario-container">
+            <h2 class="summ" data-i18n="summary.title">Summary</h2>
+            <ol class="summary-list">
+                <li>
+                    <a href="#" data-i18n="summary.basic">Basico</a>
+                    <ol>
+                        <li><a href="#statisticsid" data-i18n="summary.statistics">Statistics</a></li>
+                        <li><a href="#Abilitiesid" data-i18n="summary.Abilities">Abilities</a></li>
+                    </ol>
+                </li>
+                <li>
+                    <a href="#paragrafo2">Parágrafo</a>
+                    <ol>
+                        <li><a href="#sub-paragrafo2.1">Sub-parágrafo</a></li>
+                        <li><a href="#sub-paragrafo2.2">Sub-parágrafo</a></li>
+                    </ol>
+                </li>
+            </ol>
+        </div>
+
+        <organizacao stats>
+        <div class="stats-container" id="statisticsid">
+            <div class="stats-header">
+                <h3>Base statistics</h3>
+                <div class="status-selector">
+                    <span>Level:</span>
+                    <select id="status-selector">
+                        <option value="n">n</option>
+                        <option value="1-18">1-18</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <img src="/src/assets/img/icons/15px-Health_icon.png" class="stat-icon">
+                    <span class="stat-name" data-i18n="stats.hp">HP</span>
+                    <span class="stat-value" data-stat-id="hp">660</span>
+                </div>
+                <div class="stat-item">
+                    <img src="/src/assets/img/icons/15px-Energy_icon.png" class="stat-icon">
+                    <span class="stat-name" data-i18n="stats.energy">Energy</span>
+                    <span class="stat-value" data-stat-id="energy">400</span>
+                </div>
+                <div class="stat-item">
+                    <img src="/src/assets/img/icons/14px-Health_regeneration_icon.png" class="stat-icon">
+                    <span class="stat-name" data-i18n="stats.hp">HP5</span>
+                    <span class="stat-value" data-stat-id="hp">8.5</span>
+                </div>
+                <div class="stat-item">
+                    <img src="/src/assets/img/icons/14px-Energy_regeneration_icon.png" class="stat-icon">
+                    <span class="stat-name" data-i18n="stats.eregen">Energy regen</span>
+                    <span class="stat-value" data-stat-id="hp">50</span>
+                </div>
+                <div class="stat-item">
+                    <img src="/src/assets/img/icons/14px-Armor_icon.png" class="stat-icon">
+                    <span class="stat-name" data-i18n="stats.ar">AR</span>
+                    <span class="stat-value" data-stat-id="ar">34</span>
+                </div>
+                <div class="stat-item">
+                    <img src="/src/assets/img/icons/14px-Attack_damage_icon.png" class="stat-icon">
+                    <span class="stat-name" data-i18n="stats.ad">AD</span>
+                    <span class="stat-value" data-stat-id="ad">64</span>
+                </div>
+                <div class="stat-item">
+                    <img src="/src/assets/img/icons/14px-Magic_resistance_icon.png" class="stat-icon">
+                    <span class="stat-name" data-i18n="stats.mr">MR</span>
+                    <span class="stat-value" data-stat-id="mr">32</span>
+                </div>
+                <div class="stat-item">
+                    <img src="/src/assets/img/icons/15px-Critical_strike_damage_icon.png" class="stat-icon">
+                    <span class="stat-name" data-i18n="stats.cdmg">Crit. DMG</span>
+                    <span class="stat-value" data-stat-id="cdmg">175%</span>
+                </div>
+                <div class="stat-item">
+                    <img src="/src/assets/img/icons/14px-Movement_speed_icon.png" class="stat-icon">
+                    <span class="stat-name" data-i18n="stats.ms">MS</span>
+                    <span class="stat-value" data-stat-id="ms">340</span>
+                </div>
+                <div class="stat-item">
+                    <img src="/src/assets/img/icons/14px-Range_icon.png" class="stat-icon">
+                    <span class="stat-name" data-i18n="stats.ar">Attack range</span>
+                    <span class="stat-value" data-stat-id="ar">125</span>
+                </div>
+            </div>
+
+            <h3 class="stats-header">Attack speed</h3>
+
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-name" data-i18n="baseas">Base AS</span>
+                    <span class="stat-value" data-stat-id="baseas">0.751</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-name" data-i18n="windup">Windup%</span>
+                    <span class="stat-value" data-stat-id="windup">17.361%</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-name" data-i18n="asratio">AS ratio</span>
+                    <span class="stat-value" data-stat-id="asratio">0.651</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-name" data-i18n="bonusas">Bonus AS</span>
+                    <span class="stat-value" data-stat-id="bonusas">3%</span>
+                </div>
+            </div>
+
+            <h3 class="stats-header">Unit radius</h3>
+
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <img src="/src/assets/img/icons/20px-Gameplay_radius.png" class="stat-icon">
+                    <span class="stat-name" data-i18n="stats.gr">Gameplay radius</span>
+                    <span class="stat-value" data-stat-id="gr">65</span>
+                </div>
+                <div class="stat-item">
+                    <img src="/src/assets/img/icons/20px-Selection_radius.png" class="stat-icon">
+                    <span class="stat-name" data-i18n="stats.sr"> Select. radius</span>
+                    <span class="stat-value" data-stat-id="sr">100</span>
+                </div>
+                <div class="stat-item">
+                    <img src="/src/assets/img/icons/20px-Pathing_radius.png" class="stat-icon">
+                    <span class="stat-name" data-i18n="stats.pr"> Pathing radius</span>
+                    <span class="stat-value" data-stat-id="pr">35</span>
+                </div>
+                <div class="stat-item">
+                    <img src="/src/assets/img/icons/20px-Selection_height.png" class="stat-icon">
+                    <span class="stat-name" data-i18n="stats.pr"> Select. height</span>
+                    <span class="stat-value" data-stat-id="pr">175</span>
+                </div>
+                <div class="stat-item">
+                    <img src="/src/assets/img/icons/20px-Acquisition_range.png" class="stat-icon">
+                    <span class="stat-name" data-i18n="stats.ara"> Acq. radius</span>
+                    <span class="stat-value" data-stat-id="ara">400</span>
+                </div>
+            </div>
+        </div>
+</organizacao>
+
+<organizacao ki barrier>
+        <div class="skills-section">
+        <div class="skill-container">
+            <div class="skill-header">
+                <h3 class="skill-name">Ki Barrier</h3>
+                <span class="cooldown">COOLDOWN: 11</span>
+            </div>
+            <div class="skill-description">
+                <div class="description-icon">
+                    <img src="/src/assets/img/abilities/Shen_Ki_Barrier.png" alt="Ki Barrier Icon" class="skill-icon">
+                </div>
+                <p class="description-text">
+                    <span class="KiBarrier.innate">INATO:</span data-i18n="KiBarrier.descricao1"> After completing an ability's effects, Shen grants himself a shield for 47 - 120 (based on level) (+ 13% bonus health) for 2.5 seconds. If Shen affects at least one other  champion with an ability, Ki Barrier's cooldown is reduced by 4 - 8 (based on level) seconds.
+                </p>
+            </div>
+            <p data-i18n="KiBarrier.descricao2">Shen manifests a Spirit Blade that he can control wit Twilight Assault and Spirit's Refuge.</p>
+        </div>
+</organizacao>
+
+        <div class="skill-container">
+            <div class="skill-header">
+                <h3 class="skill-name">Ki Barrier</h3>
+                <span class="cooldown">COOLDOWN: 11</span>
+            </div>
+            <div class="skill-description">
+                <div class="description-icon">
+                    <img src="caminho/para/o/icone_ki_barrier.png" alt="Ki Barrier Icon" class="skill-icon">
+                </div>
+                <p class="description-text">
+                    <span class="innate">INATO:</span> Após completar os efeitos de uma habilidade, Shen ganha um escudo por <span class="stat-highlight">47–120 (+13% de vida bônus)</span> por 2.5 segundos. Se Shen acertar pelo menos um outro campeão com uma habilidade, o tempo de recarga de Ki Barrier é reduzido de <span class="stat-highlight">4–8</span> segundos (baseado no nível).
+                </p>
+            </div>
+            <div class="secondary-info">
+                <p>Shen manifesta uma <span class="highlight-text">Espada Espiritual</span> que ele pode controlar com <img src="caminho/para/o/icone_q.png" alt="Q Icon" class="inline-icon"> Crepúsculo Assalto e <img src="caminho/para/o/icone_w.png" alt="W Icon" class="inline-icon"> Refúgio do Espírito.</p>
+            </div>
+        </div>
+
+        <div class="skill-container">
+            <div class="skill-header">
+                <h3 class="skill-name">Ki Barrier</h3>
+                <span class="cooldown">COOLDOWN: 11</span>
+            </div>
+            <div class="skill-description">
+                <div class="description-icon">
+                    <img src="caminho/para/o/icone_ki_barrier.png" alt="Ki Barrier Icon" class="skill-icon">
+                </div>
+                <p class="description-text">
+                    <span class="innate">INATO:</span> Após completar os efeitos de uma habilidade, Shen ganha um escudo por <span class="stat-highlight">47–120 (+13% de vida bônus)</span> por 2.5 segundos. Se Shen acertar pelo menos um outro campeão com uma habilidade, o tempo de recarga de Ki Barrier é reduzido de <span class="stat-highlight">4–8</span> segundos (baseado no nível).
+                </p>
+            </div>
+            <div class="secondary-info">
+                <p>Shen manifesta uma <span class="highlight-text">Espada Espiritual</span> que ele pode controlar com <img src="caminho/para/o/icone_q.png" alt="Q Icon" class="inline-icon"> Crepúsculo Assalto e <img src="caminho/para/o/icone_w.png" alt="W Icon" class="inline-icon"> Refúgio do Espírito.</p>
+            </div>
+        </div>
+
+        <div class="skill-container">
+            <div class="skill-header">
+                <h3 class="skill-name">Ki Barrier</h3>
+                <span class="cooldown">COOLDOWN: 11</span>
+            </div>
+            <div class="skill-description">
+                <div class="description-icon">
+                    <img src="caminho/para/o/icone_ki_barrier.png" alt="Ki Barrier Icon" class="skill-icon">
+                </div>
+                <p class="description-text">
+                    <span class="innate">INATO:</span> Após completar os efeitos de uma habilidade, Shen ganha um escudo por <span class="stat-highlight">47–120 (+13% de vida bônus)</span> por 2.5 segundos. Se Shen acertar pelo menos um outro campeão com uma habilidade, o tempo de recarga de Ki Barrier é reduzido de <span class="stat-highlight">4–8</span> segundos (baseado no nível).
+                </p>
+            </div>
+            <div class="secondary-info">
+                <p>Shen manifesta uma <span class="highlight-text">Espada Espiritual</span> que ele pode controlar com <img src="caminho/para/o/icone_q.png" alt="Q Icon" class="inline-icon"> Crepúsculo Assalto e <img src="caminho/para/o/icone_w.png" alt="W Icon" class="inline-icon"> Refúgio do Espírito.</p>
+            </div>
+        </div>
+
+        <div class="skill-container">
+            <div class="skill-header">
+                <h3 class="skill-name">Ki Barrier</h3>
+                <span class="cooldown">COOLDOWN: 11</span>
+            </div>
+            <div class="skill-description">
+                <div class="description-icon">
+                    <img src="caminho/para/o/icone_ki_barrier.png" alt="Ki Barrier Icon" class="skill-icon">
+                </div>
+                <p class="description-text">
+                    <span class="innate">INATO:</span> Após completar os efeitos de uma habilidade, Shen ganha um escudo por <span class="stat-highlight">47–120 (+13% de vida bônus)</span> por 2.5 segundos. Se Shen acertar pelo menos um outro campeão com uma habilidade, o tempo de recarga de Ki Barrier é reduzido de <span class="stat-highlight">4–8</span> segundos (baseado no nível).
+                </p>
+            </div>
+            <div class="secondary-info">
+                <p>Shen manifesta uma <span class="highlight-text">Espada Espiritual</span> que ele pode controlar com <img src="caminho/para/o/icone_q.png" alt="Q Icon" class="inline-icon"> Crepúsculo Assalto e <img src="caminho/para/o/icone_w.png" alt="W Icon" class="inline-icon"> Refúgio do Espírito.</p>
+            </div>
+        </div>
+        </div>
+        
+
+            
+
+    </main>
+
+    <footer>
+        <p data-i18n="footer.copyright">© 2023 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="/src/scripts/i18n.js" ></script>
+    <script src="/src/scripts/main.js"></script>
+</body>
+</html>

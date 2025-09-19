@@ -1,0 +1,279 @@
+/* Estilos gerais */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-color: black;
+    color: #fff;
+}
+
+main {
+    flex: 1;
+    padding: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para a Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    border-bottom: 1px solid #444;
+    color: #fff;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav h2 {
+    margin: 0;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+/* Estilos para o seletor de idioma */
+#lang-selector {
+    background-color: #f4f4f4;
+    color: #5f6368;
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+    padding: 8px 25px;
+    font-size: 14px;
+    font-family: inherit;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>');
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    background-size: 16px;
+}
+
+#lang-selector:hover {
+    background-color: #ebebeb;
+}
+
+/* Estilos para o container de estatísticas */
+.stats-container {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.stats-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #555;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+/* Estilos para cada item de estatística (combinados em um só bloco) */
+.stat-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    border-bottom: 1px dashed #444;
+}
+
+.stat-icon {
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.stat-name {
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+.stat-value {
+    color: #ffd700;
+    text-align: right;
+}
+
+/* Estilos para a caixa do sumário */
+.sumario-container {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    margin: 20px auto;
+}
+
+.sumario-container a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.2s ease;
+}
+
+.sumario-container a:hover {
+    color: #007bff;
+}
+
+/* Estilo para a lista do sumário */
+.sumario-container ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.sumario-container h2.summ {
+    color: black;
+    text-align: center;
+}
+
+/* A numeração hierárquica do sumário */
+.summary-list {
+    list-style: none;
+    counter-reset: top-level;
+}
+
+.summary-list > li::before {
+    content: counter(top-level) '. ';
+    counter-increment: top-level;
+    font-weight: bold;
+    color: #ffd700;
+}
+
+.summary-list li ol {
+    list-style-type: none;
+    counter-reset: sub-level;
+}
+
+.summary-list li ol li::before {
+    content: counters(top-level, '.') '.' counters(sub-level, '.') ' ';
+    counter-increment: sub-level;
+    font-weight: bold;
+    color: #ffd700;
+}
+
+.summary-list ol {
+    margin-left: 30px;
+}
+
+/* Container da caixa de habilidade */
+.skill-container {
+    background-color: #1a1a2e; /* Fundo azul marinho escuro */
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    border: 1px solid #333; /* Borda sutil */
+}
+
+/* Estilo do cabeçalho da habilidade */
+.skill-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #444;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.skill-name {
+    margin: 0;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.cooldown {
+    font-size: 0.9em;
+    color: #aaa;
+}
+
+/* Estilo da seção de descrição */
+.skill-description {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.skill-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    flex-shrink: 0; /* Impede que o ícone encolha */
+}
+
+.description-text {
+    margin: 0;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+/* Estilos para os destaques no texto */
+.innate {
+    font-weight: bold;
+    color: #ffd700; /* Cor amarela para o destaque */
+}
+
+.stat-highlight {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.highlight-text {
+    font-weight: bold;
+}
+
+/* Estilos para os ícones inline no texto */
+.inline-icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+/* Estilo para a informação secundária */
+.secondary-info {
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 15px;
+}
+
+.skills-section {
+    display: flex;
+    flex-direction: column; /* Faz as caixas de habilidade ficarem uma embaixo da outra */
+    gap: 0px; /* Adiciona um espaço entre elas */
+}

@@ -1,0 +1,33 @@
+{
+    "title": "Strategies for Shen",
+  
+  "summary": {
+    "title": "Summary",
+    "statistics": "Statistics",
+    "basic": "Basic",
+    "Abilities": "Abilities"
+  },
+
+  "navbar": {
+    "title": "Strategies for Shen",
+    "language": "Language:"
+  },
+
+  "KiBarrier":{
+    "title": "Ki Barrier",
+    "Innate": "Innate:",
+    "descricao1": "After completing an ability's effects, Shen grants himself a shield for 47 - 120 (based on level) (+ 13% bonus health) for 2.5 seconds. If Shen affects at least one other  champion with an ability, Ki Barrier's cooldown is reduced by 4 - 8 (based on level) seconds.",
+    "descricao2": "Shen manifests a Spirit Blade that he can control wit Twilight Assault and Spirit's Refuge."
+  },
+  
+  "header": {
+    "title": "Welcome to My Website!",
+    "subtitle": "Discover our services."
+  },
+  "about": {
+    "text": "This is a simple single-page website."
+  },
+  "footer": {
+    "copyright": "©"
+  }
+}
