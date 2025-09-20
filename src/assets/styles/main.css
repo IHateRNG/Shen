@@ -394,3 +394,75 @@ nav h2 {
     margin: 0 auto;
     text-align: justify; /* Justifica o texto para bordas retas */
 }
+
+.tier-list-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    border: 1px solid #333;
+    background-color: #0d0d0d;
+}
+
+.tier-row {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #333;
+    min-height: 80px; /* Garante que a linha tenha uma altura mínima para as fotos */
+}
+
+.tier-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #fff;
+    padding: 10px;
+    border-right: 1px solid #333;
+}
+
+.tier-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    flex-grow: 1;
+}
+
+.tier-image {
+    width: 64px;
+    height: 64px;
+    border-radius: 4px;
+    border: 1px solid #555;
+}
+
+/* Cores de Fundo de Cada Tier */
+.tier-s-color { background-color: #ff9999; }
+.tier-a-color { background-color: #ffcc99; }
+.tier-b-color { background-color: #ffff99; }
+.tier-c-color { background-color: #99ff99; }
+.tier-d-color { background-color: #99ccff; }
+.tier-f-color { background-color: #99cccc; }
+
+/* Exemplo de tier especial */
+.tier-special-color { background-color: #ff6666; }
+.tier-list-container .tier-special-color .tier-label {
+    color: #fff;
+    font-size: 1.1em;
+    text-align: center;
+    line-height: 1.2;
+}
+
+/* Opcional: Estilo para o texto "0%" */
+.percentage-text {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.7);
+}
