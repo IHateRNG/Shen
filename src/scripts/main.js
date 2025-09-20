@@ -42,7 +42,7 @@ function setupCarousel(translations) {
     if (initialThumbnail) {
         const initialImageSrc = initialThumbnail.getAttribute('data-image');
         const initialDescriptionKey = initialThumbnail.getAttribute('data-description');
-        
+
         mainImage.src = initialImageSrc;
         const translatedDescription = getNestedTranslation(translations, initialDescriptionKey);
         descriptionText.innerHTML = translatedDescription; // AQUI ESTÁ A MUDANÇA
@@ -56,7 +56,7 @@ function setupCarousel(translations) {
             event.target.classList.add('active');
             const newImageSrc = event.target.getAttribute('data-image');
             const newDescriptionKey = event.target.getAttribute('data-description');
-            
+
             mainImage.src = newImageSrc;
             const translatedDescription = getNestedTranslation(translations, newDescriptionKey);
             descriptionText.innerHTML = translatedDescription; // AQUI ESTÁ A MUDANÇA
@@ -87,7 +87,7 @@ async function updateAllStats(selectedSetId) {
         console.error('Conjunto de status não encontrado:', selectedSetId);
         return;
     }
-    
+
     for (const statId in statsSet) {
         if (statsSet.hasOwnProperty(statId)) {
             const statValue = statsSet[statId];
@@ -105,7 +105,7 @@ async function updateAllStats(selectedSetId) {
 
 const backToTopButton = document.getElementById('scrollToTopBtn');
 
-window.onscroll = function() {
+window.onscroll = function () {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         backToTopButton.style.display = 'block';
     } else {
@@ -114,10 +114,15 @@ window.onscroll = function() {
 };
 
 backToTopButton.addEventListener('click', () => {
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-    });
+    // Você precisa encontrar a posição do seu sumário
+    const summaryElement = document.getElementById('SumarioBackId'); // Substitua 'sumario' pelo ID do seu sumário
+
+    if (summaryElement) {
+        window.scrollTo({
+            top: summaryElement.offsetTop, // Rola para a posição do elemento
+            behavior: 'smooth'
+        });
+    }
 });
 
 // ----------------------------------------------------
@@ -128,7 +133,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // 1. Inicializa a tradução e o carrossel
     const langSelector = document.getElementById('lang-selector');
     const savedLang = localStorage.getItem('userLang') || 'pt-br';
-    
+
     if (langSelector) {
         langSelector.value = savedLang;
         langSelector.addEventListener('change', (event) => {
@@ -139,7 +144,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 2. Inicializa a atualização das estatísticas
     const statusSelector = document.getElementById('status-selector');
-    
+
     if (statusSelector) {
         statusSelector.addEventListener('change', (event) => {
             updateAllStats(event.target.value);
@@ -147,3 +152,16 @@ document.addEventListener('DOMContentLoaded', () => {
         updateAllStats(statusSelector.value);
     }
 });
+
+// ... seu outro código JavaScript ...
+
+// Código para lazy loading
+document.addEventListener('DOMContentLoaded', (event) => {
+    const allImages = document.querySelectorAll('img');
+
+    allImages.forEach(img => {
+        img.setAttribute('loading', 'lazy');
+    });
+});
+
+// ... o restante do seu código ...

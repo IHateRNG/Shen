@@ -1,56 +1,68 @@
 {
   "title": "Estratégias para o Shen",
   "statisticshen": "Estatísticas",
-
+  "header": {
+    "title": "Welcome to Estratégias para o Shen",
+    "subtitle": "Bem-vindo ao guia definitivo para dominar Shen, o Olho do Crepúsculo. Se você busca transcender o papel de tanque e se tornar uma verdadeira força no Rift, este é o seu lugar. Aqui, exploramos as nuances do campeão, revelando estratégias de jogo, builds ideais e a mentalidade correta para proteger seus aliados, dividir a pressão no mapa e impactar as lutas globais. Prepare-se para elevar sua maestria com Shen a um novo nível."
+  },
+  "Pros": {
+    "1": "Teleporte Global",
+    "2": "Fase de rotas forte",
+    "3": "Mecânica de lâmina fluida",
+    "4": "Ensina consciência de mapa",
+    "5": "Teto de habilidade alto",
+    "6": "Ninja que usa duas espadas"
+  },
+  "Cons": {
+    "1": "Limpeza de onda limitada",
+    "2": "Fraco contra campeões de longo alcance",
+    "3": "Difícil de acertar controle de grupo",
+    "4": "Ensina consciência de mapa",
+    "5": "Dano em área baixo",
+    "6": "Não é um dos favoritos da Riot."
+  },
   "summary": {
     "title": "Sumário",
     "statistics": "Estatísticas",
     "basic": "Basico",
     "Abilities": "Habilidades e Estatísticas"
   },
-
   "ShenSkills": {
     "KiBarrier": "Barreira de Ki",
     "TwilightAssault": "Ataque do Crepúsculo",
     "SpiritRefuge": "Refúgio do Espírito",
     "ShandowDash": "Investida das Sombras",
     "StandUnited": "Manter a União"
-},
-
+  },
   "KiBarrier": {
     "title": "Barreira de Ki",
     "Innate": "Inato:",
     "descricao1": "Após concluir os efeitos de uma habilidade, Shen concede a si mesmo um escudo por 47 - 120 (baseado no nível) (+ 13% de vida bônus) por 2.5 segundos. Se Shen atingir pelo menos um outro campeão com uma habilidade, o tempo de recarga de Barreira de Ki é reduzido em 4 - 8 segundos (baseado no nível).",
     "descricao2": "Shen manifesta uma Lâmina Espiritual que ele pode controlar com Ataque do Crepúsculo e Refúgio do Espírito.",
     "detalhes": "<p>A Lâmina Espiritual surge com Shen, se teletransporta para mais perto dele caso ele se afaste demais e instantaneamente se move para ele se ele usar qualquer teletransporte global, Teleporte, Retorno ou Manter a União. Ela também desaparecerá se Shen morrer e reaparecerá ao ressurgir.</p><p>Inimigos veem uma seta apontando de Shen para a localização de sua Lâmina Espiritual, mesmo que ela não esteja visível.</p><p>O Ataque do Crepúsculo concederá o escudo se a Lâmina Espiritual alcançar Shen. Se ela for parada, nenhum escudo é concedido. Ele concederá a redução de tempo de recarga ao atingir um campeão inimigo.</p><p>O Refúgio do Espírito concederá o escudo e/ou a redução de tempo de recarga depois que a zona protetora desaparecer. Não é preciso bloquear ataques para acionar a redução de tempo de recarga, apenas tocar um campeão aliado em qualquer ponto da duração.</p><p>A Investida das Sombras concederá o escudo quando a investida terminar. Ela concederá a redução de tempo de recarga ao atingir um campeão inimigo. Se a investida for um ícone representando o termo Interrompido, o escudo será recebido no momento em que a fonte de controle de grupo for aplicada, antes de qualquer cálculo de dano (se houver).</p><p>O Manter a União dará o escudo e/ou a redução de tempo de recarga ao completar o canal.</p>"
-},
-
-
-  "TwilightAssault":{
+  },
+  "TwilightAssault": {
     "title": "Twilight Assault",
     "descricao1": "Ativo: Shen invoca a sua Lâmina Espiritual de volta para a sua localização. Campeões inimigos atingidos são Lentos por 2 segundos enquanto se movem para longe de Shen.<br><br>Quando a lâmina chega, Shen fortalece os seus próximos 3 ataques básicos dentro de 8 segundos para ganharem 75 de alcance bônus e causarem dano mágico adicional. Contra estruturas, apenas a parte do dano base é aplicada.<br><br>Se a Lâmina Espiritual atingir pelo menos um campeão inimigo durante o trajeto, os ataques são aprimorados ainda mais para causarem dano mágico adicional aumentado e, de forma adicional, concederem a Shen 50% de Velocidade de Ataque bônus.<br><br>Ataques fortalecidos contra monstros causam 100% de dano bônus, mas o dano total é limitado.",
     "descricao2": "<p>Lentidão: 25 / 30 / 35 / 40 / 45%</p> <p>Dano Mágico Adicional: 10 - 40 (baseado no nível) (+ 2 / 2.5 / 3 / 3.5 / 4% (+ 1.5% por 100 de Poder de Habilidade) da vida máxima do alvo)</p> <p>Dano Mágico Total: 30 - 120 (baseado no nível) (+ 6 / 7.5 / 9 / 10.5 / 12% (+ 4.5% por 100 de Poder de Habilidade) da vida máxima do alvo)</p> <p>Dano Adicional Aumentado: 10 - 40 (baseado no nível) (+ 5 / 5.5 / 6 / 6.5 / 7% (+ 2% por 100 de Poder de Habilidade) da vida máxima do alvo)</p> <p>Dano Total Aumentado: 30 - 120 (baseado no nível) (+ 15 / 16.5 / 18 / 19.5 / 21% (+ 6% por 100 de Poder de Habilidade) da vida máxima do alvo)</p> <p>Dano Máximo em Monstros: 120 / 140 / 160 / 180 / 200</p>",
     "detalhes": "A Lâmina Espiritual irá parar no lugar ao colidir com o Muro de Vento ou o Inquebrável ou a Refutação ou o Giro da Lâmina. Se isso ocorrer, Shen não receberá os ataques fortalecidos.</p><p>Quando ela é invocada, a Lâmina Espiritual também verifica se o raio de jogo das unidades se sobrepõe ao seu (igual a uma verificação de raio de alcance 0), antes de partir, permitindo que ela atinja inimigos cujo centro está atrás da origem do projétil.</p><p>O ataque fortalecido não será ativado contra sentinelas.</p>"
   },
-
-    "SpiritRefuge":{
+  "SpiritRefuge": {
     "title": "Twilight Assault",
     "descricao1": "Ativo: Shen prepara sua Lâmina Espiritual, criando uma área ao redor dela. Após 2 segundos, ou quando Shen ou um campeão aliado entrarem na área, a Lâmina Espiritual gera uma zona protetora por 1.75 segundos, bloqueando todos os ataques básicos (exceto de torres) que atingirem Shen ou campeões aliados na área.",
     "detalhes": "<p>A zona protetora do Refúgio do Espírito pode ser movida enquanto ativa se Shen usar Ataque do Crepúsculo.</p><p>Refúgio do Espírito não pode ser aprimorado no Nível 1.</p><p>Refúgio do Espírito também bloqueará o dano de todas as habilidades que usam dano de ataque básico Investida, Disparo Místico, Tempestade de Aço, Ferro Mortal.</p><p>Clones aliados também são considerados campeões para esta habilidade.</p>"
   },
-
-  "ShandowDash":{
+  "ShandowDash": {
     "title": "Shandow Dash",
     "descricao1": "<p>Passiva: Causar dano com Ataque do Crepúsculo ou Investida das Sombras restaura 30 / 40 / 50 (baseado no nível) de energia.</p> <p>Ativo: Shen avança para o local alvo, causando dano físico a campeões e monstros inimigos que ele atravessa e provocando-os por 1.5 segundos.</p> <p>Ataque do Crepúsculo e Refúgio do Espírito podem ser conjurados durante a investida.</p>",
-    "detalhes": "Conjurar Flash durante a Investida das Sombras irá encerrar a investida prematuramente, mas a verificação de colisão do final da investida ainda atingirá os inimigos na localização do teleporte. <p>Isso ainda não pode afetar o mesmo inimigo mais de uma vez.</p> <p>A restauração de energia da Investida das Sombras pode ocorrer apenas uma vez.</p>"  },
-
-  "StandUnited":{
+    "detalhes": "Conjurar Flash durante a Investida das Sombras irá encerrar a investida prematuramente, mas a verificação de colisão do final da investida ainda atingirá os inimigos na localização do teleporte. <p>Isso ainda não pode afetar o mesmo inimigo mais de uma vez.</p> <p>A restauração de energia da Investida das Sombras pode ocorrer apenas uma vez.</p>"
+  },
+  "StandUnited": {
     "title": "Stand United",
     "descricao1": "Ativo: Shen concentra sua vontade, canalizando por 3 segundos e concedendo ao campeão aliado-alvo um escudo por 5 segundos no momento da conjuração, aumentado em 0% - 60% (com base na vida perdida do alvo). <p>Ao completar o canalização, Shen e sua Lâmina Espiritual se teletransportam para a localização do aliado-alvo, posicionando-se entre ele e o campeão inimigo mais próximo. Shen também destrói quaisquer projéteis que o estejam visando no momento da conclusão. </p>",
-    "detalhes": "Manter a União pode ser usado em aliados via minimapa ou em seus retratos, ou usando as teclas F2 a F5. Nada disso pode ser feito se Shen for afetado por visão reduzida ou se o seu alvo estiver impossível de ser alvejado. <p>Shen se virará para encarar o aliado-alvo no início da canalização. Se o alvo estiver furtivo, os inimigos podem, em teoria, usar isso para estimar sua localização.</p> <p>Shen irá canalizar enquanto o seu alvo estiver vivo (mesmo se o escudo concedido for quebrado). Se o seu alvo morrer, a canalização é cancelada e Manter a União entra em tempo de recarga total.</p> <p>Interromper a canalização de Manter a União não removerá o escudo prematuramente.</p> <p>A tela do alvo brilhará em roxo para sinalizar que Shen o alvejou com Manter a União.</p> <p>Isso voltará ao normal quando a canalização terminar.</p> <p>Shen encontra o campeão inimigo visível mais próximo dentro de 2000 de alcance do aliado ou o campeão invisível mais próximo dentro de 600 de alcance para se posicionar a 175 unidades de seu aliado em direção a esse inimigo.</p> <p>Manter a União tem um raio de tolerância de 100 unidades.</p>"  
+    "detalhes": "Manter a União pode ser usado em aliados via minimapa ou em seus retratos, ou usando as teclas F2 a F5. Nada disso pode ser feito se Shen for afetado por visão reduzida ou se o seu alvo estiver impossível de ser alvejado. <p>Shen se virará para encarar o aliado-alvo no início da canalização. Se o alvo estiver furtivo, os inimigos podem, em teoria, usar isso para estimar sua localização.</p> <p>Shen irá canalizar enquanto o seu alvo estiver vivo (mesmo se o escudo concedido for quebrado). Se o seu alvo morrer, a canalização é cancelada e Manter a União entra em tempo de recarga total.</p> <p>Interromper a canalização de Manter a União não removerá o escudo prematuramente.</p> <p>A tela do alvo brilhará em roxo para sinalizar que Shen o alvejou com Manter a União.</p> <p>Isso voltará ao normal quando a canalização terminar.</p> <p>Shen encontra o campeão inimigo visível mais próximo dentro de 2000 de alcance do aliado ou o campeão invisível mais próximo dentro de 600 de alcance para se posicionar a 175 unidades de seu aliado em direção a esse inimigo.</p> <p>Manter a União tem um raio de tolerância de 100 unidades.</p>"
   },
-
-"skins": {
+  "skins": {
     "original": "<h2> <p> Original </p> </h2> Dentre os sigilosos guerreiros Ionianos conhecidos como Kinkou, Shen serve como seu líder, o Olho do Crepúsculo. Ele anseia por se manter livre da confusão das emoções, preconceitos e egos, e trilha o caminho invisível do julgamento imparcial entre o reino espiritual e o mundo físico. Com a tarefa de impor o equilíbrio entre eles, Shen empunha lâminas de aço e energia arcana contra qualquer um que ouse ameaçá-lo.",
     "frozen": "<h2> <p> Congelado </p> </h2> Enfrentando o frio amargo, Shen vagueia pelas calotas de gelo com suas lâminas gêmeas, caçando o aterrorizante demônio escondido nas profundezas.",
     "YellowJacket": "<h2> <p> Jaqueta Amarela </p> </h2>",
@@ -64,23 +76,16 @@
     "Shockblade": "<h2> <p> Lâmina do Choque </p> </h2> Uma vez metade de uma dupla de elite da ordem Lâmina do Choque, Shen se afastou do combate após cometer um erro que quase custou a vida de seu parceiro, Zed. Agora, Shen treina jovens shinobi que se preparam para se juntar às suas fileiras - mas seu novo pupilo pode inspirá-lo a pegar sua espada e se juntar à luta mais uma vez.",
     "AshenGuardian": "<h2> <p> Guardião Cinéreo </p> </h2> Um devoto dos princípios de seu líder agora morto, Shen ainda caminha pelos terrenos do castelo, empunhando a lâmina de seu mestre junto com a sua. Talvez uma pequena parte dele reconheça, a cada golpe em sua armadura dado por viajantes em busca de antigas riquezas, que sua guarda é sem sentido. Mas a vida deve ter um significado. Até mesmo uma vida tão infinita como esta.",
     "ThreeHonors": "<h2> <p> Treis Honras </p> </h2> Shen é o último fundador sobrevivente da Ordem do Consolo. Ele fechou todos os templos quando o mundo caiu na apatia e no descaso, desaparecendo na obscuridade até que Malzahar reviveu a Ordem. Agora de volta das sombras, Shen serve como seu professor mais experiente, um líder estoico de integridade e graça em quem todos podem confiar."
-},
-
-
+  },
   "MapAwareness": {
     "title": "Consciência de Mapa",
     "fingers": "Como Shen, você precisa estar ciente do que está acontecendo no mapa. Primeiramente, você precisa olhar o minimapa constantemente, pelo menos a cada 5 segundos. Esta é uma dica geral e não específica para Shen. Ela irá melhorar sua jogabilidade com qualquer campeão. A segunda coisa importante é mover a câmera pelo mapa. O minimapa oferece muitas informações, mas não todas. Para ver as barras de recursos dos inimigos, a vida dos minions e as habilidades sendo usadas, você precisa olhar ao redor do mapa. Não há desculpas para manter a câmera centralizada em seu campeão o tempo todo. Você precisa saber o que todos em seu time estão fazendo, quem está em perigo e quem está seguro. Isso é vital para sua ultimate, pois você está dando a si mesmo mais tempo para pensar e tomar as melhores decisões. Você pode clicar no mapa para olhar ao redor ou usar as teclas F para ver seus companheiros de equipe. Eu pessoalmente remapeei minhas teclas F para Espaço (Selva), V (Meio), C (ADC) e X (Suporte). Isso me permite verificar rapidamente cada companheiro de equipe apenas com o polegar, mantendo o resto dos dedos no QWER.",
     "WaveManagement": "O estado das ondas de minions tem um impacto profundo no valor presente líquido da ultimate do Shen. Raramente é uma boa ideia usar Vínculo Espiritual se houver uma onda gigante de minions prestes a colidir com sua torre. No melhor cenário, você teria empurrado sua onda de minions para a torre inimiga antes de ultar, minimizando assim a quantidade de minions perdidos durante sua ausência. Ter Teleporte para voltar para a rota também é ideal. Na realidade, há situações em que você terá que ultar e a onda não estará em um estado perfeito. Mas podemos minimizar nossas perdas planejando com antecedência. Se você puder ler o estado do jogo e prever o que provavelmente acontecerá nos próximos minutos, você pode preparar as ondas de minions de acordo. Ultimates proativas são ótimas, porque elas podem (por definição) ser executadas enquanto sua onda está avançada.",
     "CastTiming": "O escudo do Vínculo Espiritual escala com a porcentagem de vida perdida do alvo, chegando ao máximo em 60% de vida perdida. A runa Revitalizar por acaso aumenta o escudo em alvos abaixo de 40% de sua vida máxima, o que significa que o momento teoricamente ideal para usar sua ultimate é quando o alvo aliado cai abaixo de 40% de vida. Isso é bom de se lembrar. No entanto, isso não significa que você deve sempre usar sua ultimate apenas em aliados com pouca vida. Ao cronometrar sua ultimate, o fator decisivo devem ser as ações dos campeões inimigos. Você quer ultar no momento em que o oponente se compromete com seu alvo aliado. Usar Vínculo Espiritual é semelhante a pescar: você não quer ultar muito cedo e espantar o peixe, mas também não quer ultar muito tarde, quando a isca já foi comida."
   },
-
   "navbar": {
     "title": "Estratégias para o Shen",
     "language": "Linguagem:"
-  },
-  "header": {
-    "title": "Welcome to Masfasfy Website!",
-    "subtitle": "Discover our seasfasfrvices."
   },
   "about": {
     "text": "This is a simplsdasdafasfe single-page website."

@@ -1,0 +1,127 @@
+Claro! Aqui está um guia detalhado sobre cada bloco de código CSS que você forneceu, explicando a função de cada um de forma clara e organizada.
+
+1. Estilos Gerais
+Este bloco define a estrutura básica e a aparência global do seu site.
+
+html: Configura a rolagem suave (smooth), o que dá um efeito mais agradável ao navegar pela página.
+
+body: Garante que o corpo da página ocupe toda a altura da tela, centraliza o conteúdo em colunas e define a cor de fundo preta (black) e a cor do texto branca (#fff).
+
+main: Ocupa o espaço restante da tela, garantindo que o footer fique sempre no final.
+
+footer: Estiliza o rodapé com fundo escuro e texto branco, e o centraliza.
+
+2. Estilos da Navbar
+Controla a aparência e o comportamento da barra de navegação no topo da página.
+
+nav: Define a navbar como um contêiner flexível, distribuindo os itens de forma uniforme (space-between).
+
+nav a: Remove o sublinhado dos links e define a cor do texto como branca.
+
+nav h2: Remove as margens padrão do título para um alinhamento perfeito.
+
+.nav-links: Remove os marcadores de lista (list-style: none) e o espaçamento interno.
+
+.nav-links li: Transforma os itens da lista em elementos de linha, permitindo que fiquem lado a lado.
+
+3. Estilos do Seletor de Idioma
+Estiliza o botão ou menu suspenso para a seleção de idioma.
+
+#lang-selector: Define a cor, borda, raio da borda e preenchimento do seletor. Usa appearance: none para remover o estilo padrão do navegador.
+
+O background-image e o background-position são usados para adicionar uma seta personalizada (ícone SVG) ao seletor, em vez da seta padrão do navegador.
+
+#lang-selector:hover: Altera a cor de fundo quando o mouse passa sobre o seletor.
+
+4. Estilos do Container de Estatísticas
+Cria um painel estilizado para exibir estatísticas do campeão.
+
+.stats-container: Define o contêiner principal com fundo escuro, bordas arredondadas e sombra, centralizando-o na página.
+
+.stats-header: Define a parte superior do painel, com uma linha divisória para separar o cabeçalho do conteúdo.
+
+.stats-grid: Cria um layout de grade com duas colunas (grid-template-columns: repeat(2, 1fr)), ideal para exibir pares de estatísticas lado a lado.
+
+.stat-item: Estiliza cada linha de estatística, garantindo que o nome e o valor fiquem alinhados em extremidades opostas (justify-content: space-between).
+
+.stat-icon, .stat-name, .stat-value: Estiliza os ícones, nomes e valores das estatísticas, com cores e pesos de fonte específicos.
+
+5. Estilos da Caixa do Sumário
+Cria um painel para o sumário de conteúdo, com uma lista hierárquica.
+
+.sumario-container: Estiliza a caixa principal com fundo azul escuro, bordas e sombra.
+
+.sumario-container a: Remove o sublinhado dos links do sumário e adiciona uma transição suave para a cor.
+
+.sumario-container a:hover: Altera a cor do link ao passar o mouse.
+
+.summary-list: Usa counter-reset e counters para criar a numeração hierárquica (1., 1.1., 1.2., etc.) e estiliza essa numeração com a cor amarela (#ffd700).
+
+6. Estilos da Caixa de Habilidade
+Estiliza os painéis que mostram informações sobre as habilidades do campeão.
+
+.skill-container: Define o contêiner de cada habilidade, com fundo escuro, bordas arredondadas e sombra.
+
+.skill-header: Organiza o nome da habilidade e o tempo de recarga (cooldown) em lados opostos.
+
+.skill-description: Usa flex para alinhar o ícone da habilidade com o texto de descrição.
+
+.skill-especificacoes: Centraliza o texto do parágrafo dentro do container.
+
+.skill-icon: Define o tamanho e o raio da borda do ícone da habilidade.
+
+.innate, .stat-highlight, .highlight-text: Adiciona estilos de destaque (cores, negrito, sublinhado) a partes importantes do texto de descrição.
+
+.inline-icon: Estiliza ícones que aparecem dentro do texto (como ícones de itens ou runas).
+
+.skills-section: Cria um contêiner flexível para agrupar as caixas de habilidade, organizando-as em uma coluna.
+
+7. Estilos do Botão "Voltar ao Topo"
+Cria um botão fixo no canto da tela que rola a página para cima.
+
+#scrollToTopBtn: Define a posição fixa na tela, o espaçamento, o raio da borda e o estilo do cursor.
+
+display: none: O botão começa invisível e só é mostrado via JavaScript quando o usuário rola a página.
+
+z-index: 99: Garante que o botão fique na camada mais alta, sobrepondo outros elementos.
+
+#scrollToTopBtn:hover: Altera a cor de fundo ao passar o mouse.
+
+8. Estilos do Carrossel de Imagens
+Estiliza uma galeria de imagens com miniaturas.
+
+.carousel-container: Define o contêiner principal com um fundo escuro, preenchimento e centralização.
+
+.main-image-container img: Garante que a imagem principal seja responsiva (max-width: 100%).
+
+.description-container: Estiliza a área de texto abaixo da imagem principal.
+
+.thumbnails-container: Cria uma linha de miniaturas flexível e centralizada.
+
+.thumbnail: Define o tamanho, forma redonda (border-radius: 50%) e transição suave das miniaturas.
+
+.thumbnail.active, .thumbnail:hover: Adiciona um destaque amarelo e um efeito de zoom quando uma miniatura está ativa ou quando o mouse passa sobre ela.
+
+9. Estilos da Seção de Visão de Mapa
+Cria um painel para dicas de visão de jogo, com um texto justificado e uma imagem.
+
+.map-awareness-section: Define o contêiner com fundo escuro e borda, centralizando-o na página.
+
+.image-container img: Garante que a imagem se ajuste ao contêiner e esteja centralizada.
+
+.text-container p: Justifica o texto para um visual mais formal e organizado.
+
+10. Estilos da Tier List
+Cria uma tabela estilizada para exibir listas de campeões em diferentes tiers.
+
+.tier-list-container: Define o contêiner principal da lista.
+
+.tier-row: Estiliza cada linha da tabela.
+
+.tier-label: Estiliza a coluna do nome do tier (S, A, B, etc.).
+
+.tier-content: Contém as imagens dos campeões para cada tier.
+
+.tier-image: Define o tamanho e o estilo das imagens dos campeões.
+
+.tier-*-color: Define cores de fundo específicas para cada tier, como tier-s-color para vermelho claro e tier-b-color para amarelo.

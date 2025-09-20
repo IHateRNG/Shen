@@ -1,0 +1,18 @@
+header {
+    /* Ativa o Flexbox para organizar os elementos internos */
+    display: flex;
+    
+    /* Organiza os itens em uma coluna (um embaixo do outro) */
+    flex-direction: column;
+    
+    /* Centraliza os itens horizontalmente */
+    align-items: center;
+    
+    /* Centraliza os itens verticalmente, se necessário */
+    justify-content: center;
+
+    /* Opcional: Adiciona um espaço e cor de fundo para visualizar melhor */
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
