@@ -129,8 +129,8 @@ nav h2 {
 
 /* Estilos para a caixa do sumário */
 .sumario-container {
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
+    background-color: #272742;
+    border: 1px solid #1a1a2e;
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -140,7 +140,7 @@ nav h2 {
 
 .sumario-container a {
     text-decoration: none;
-    color: #333;
+    color: #ffffff;
     transition: color 0.2s ease;
 }
 
@@ -229,6 +229,13 @@ nav h2 {
     gap: 15px;
 }
 
+.skill-especificacoes {
+    max-width: 900px;
+    margin: 0 auto;
+    /* Apenas o texto do parágrafo será centralizado */
+    text-align: center;
+}
+
 .skill-icon {
     width: 60px;
     height: 60px;
@@ -276,4 +283,114 @@ nav h2 {
     display: flex;
     flex-direction: column; /* Faz as caixas de habilidade ficarem uma embaixo da outra */
     gap: 0px; /* Adiciona um espaço entre elas */
+}
+
+.skill-detalhes {
+    color: #fff;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+#scrollToTopBtn {
+    display: none; /* Começa escondido */
+    position: fixed; /* O mantém na mesma posição na tela */
+    bottom: 20px; /* Distância da parte inferior */
+    right: 20px; /* Distância da lateral direita */
+    z-index: 99; /* Garante que o botão fique na frente de outros elementos */
+    border: none;
+    outline: none;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+#scrollToTopBtn:hover {
+    background-color: #333;
+}
+
+.carousel-container {
+    max-width: 900px;
+    margin: 40px auto;
+    text-align: center;
+    background-color: #1a1a2e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.main-image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #333;
+}
+
+.description-container {
+    margin: 20px 0;
+    color: #ccc;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.thumbnails-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.thumbnail {
+    width: 60px; /* Tamanho da miniatura */
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%; /* Faz a miniatura ser redonda */
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border-color 0.3s, transform 0.2s;
+}
+
+.thumbnail.active,
+.thumbnail:hover {
+    border-color: #ffd700; /* Cor amarela para o destaque */
+    transform: scale(1.1); /* Efeito de zoom */
+}
+
+/* Estilos para a seção principal */
+.map-awareness-section {
+    background-color: #1a1a2e; /* Cor de fundo escura */
+    color: #e6e6e6; /* Cor do texto claro */
+    font-family: Arial, sans-serif;
+    padding: 30px;
+    border: 1px solid #333; /* Borda sutil */
+    border-radius: 8px;
+    margin: 20px auto; /* Centraliza a div na página */
+    max-width: 1900px; /* Limita a largura da seção */
+    text-align: center; /* Centraliza o texto e a imagem */
+}
+
+/* Estilo para o título (opcional, se você tiver um) */
+.map-awareness-section h2 {
+    color: #ffd700; /* Título em destaque */
+    margin-bottom: 20px;
+}
+
+/* Estilo para a imagem */
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Remove o espaço extra abaixo da imagem */
+    margin: 0 auto 20px; /* Centraliza a imagem e adiciona espaço abaixo */
+}
+
+/* Estilo para o parágrafo */
+.text-container p {
+    line-height: 1.6;
+    margin: 0 auto;
+    text-align: justify; /* Justifica o texto para bordas retas */
 }

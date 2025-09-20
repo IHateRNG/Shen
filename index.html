@@ -31,17 +31,27 @@
             <h2 class="summ" data-i18n="summary.title">Summary</h2>
             <ol class="summary-list">
                 <li>
-                    <a href="#" data-i18n="summary.basic">Basico</a>
+                    <a href="#Abilitiesid" data-i18n="summary.Abilities">Abilities</a>
                     <ol>
                         <li><a href="#statisticsid" data-i18n="summary.statistics">Statistics</a></li>
-                        <li><a href="#Abilitiesid" data-i18n="summary.Abilities">Abilities</a></li>
+                        <li><a href="#kibarrierid" data-i18n="ShenSkills.KiBarrier">ki barrier</a></li>
+                        <li><a href="#TwilightAssaultid" data-i18n="ShenSkills.TwilightAssault">Twilight Assault</a></li>
+                        <li><a href="#SpiritRefugeid" data-i18n="ShenSkills.SpiritRefuge">Spirit's Refuge</a></li>
+                        <li><a href="#ShandowDashid" data-i18n="ShenSkills.ShandowDash">Shadow Dash</a></li>
+                        <li><a href="#StandUnitedid" data-i18n="ShenSkills.StandUnited">Stand United</a></li>
+                        <li><a href="#skinsid" data-i18n="#">Skins</a></li>
                     </ol>
                 </li>
                 <li>
-                    <a href="#paragrafo2">Parágrafo</a>
+                    <a href="#MapAwarenessid" data-i18n="MapAwareness.title0">Parágrafo</a>
                     <ol>
-                        <li><a href="#sub-paragrafo2.1">Sub-parágrafo</a></li>
-                        <li><a href="#sub-paragrafo2.2">Sub-parágrafo</a></li>
+                        <li><a href="#Split-pushingid" data-i18n="MapAwareness.title3">Sub-parágrafo</a></li>
+                        <li><a href="#CurrentObjectiveid" data-i18n="MapAwareness.title4">Sub-parágrafo</a></li>
+                        <li><a href="#MirroringPressureid" data-i18n="MapAwareness.title5">Sub-parágrafo</a></li>
+                        <li><a href="#Visionid" data-i18n="MapAwareness.title6">Sub-parágrafo</a></li>
+                        <li><a href="#fingersid" data-i18n="MapAwareness.title">Sub-parágrafo</a></li>
+                        <li><a href="#WaveManagementid" data-i18n="MapAwareness.title1">Sub-parágrafo</a></li>
+                        <li><a href="#CastTimingid" data-i18n="MapAwareness.title2">Sub-parágrafo</a></li>
                     </ol>
                 </li>
             </ol>
@@ -184,11 +194,11 @@
         </div>
 </organizacao>
 
-<organizacao ki barrier>
+<organizacao ki barrier id="kibarrierid">
         <div class="skills-section">
         <div class="skill-container">
             <div class="skill-header">
-                <h3 class="skill-name">Ki Barrier</h3>
+                <h3 class="skill-name" data-i18n="ShenSkills.KiBarrier">Ki Barrier</h3>
                 <span class="cooldown">COOLDOWN: 11</span>
             </div>
             <div class="skill-description">
@@ -201,91 +211,174 @@
             </div>
             <p data-i18n="KiBarrier.descricao2">Shen manifests a Spirit Blade that he can control wit Twilight Assault and Spirit's Refuge.</p>
         </div>
+
+        <div class="skill-detalhes">
+        <p data-i18n="KiBarrier.detalhes"></p>
+        </div>
+
 </organizacao>
 
-        <div class="skill-container">
+<organizacao TwilightAssault>
+        <div class="skill-container" id="TwilightAssaultid">
             <div class="skill-header">
-                <h3 class="skill-name">Ki Barrier</h3>
-                <span class="cooldown">COOLDOWN: 11</span>
+                <h3 class="skill-name" data-i18n="ShenSkills.TwilightAssault">Twilight Assault</h3>
+                <span class="cooldown">COST: 140 / 130 / 120 / 110 / 100 energy COOLDOWN: 8 / 7.25 / 6.5 / 5.75 / 5 CAST TIME: none EFFECT RADIUS: Global WIDTH:  160 SPEED: 2000 - 5000
+</span>
             </div>
             <div class="skill-description">
                 <div class="description-icon">
-                    <img src="caminho/para/o/icone_ki_barrier.png" alt="Ki Barrier Icon" class="skill-icon">
+                    <img src="/src/assets/img/abilities/Shen_Twilight_Assault.png" alt="Ki Barrier Icon" class="skill-icon">
+                    <br><br><img src="/src/assets/img/abilities/Shen_Twilight_Assault_2.png" alt="Ki Barrier Icon" class="skill-icon">
+                    <br><br><img src="/src/assets/img/abilities/Shen_Twilight_Assault_3.png" alt="Ki Barrier Icon" class="skill-icon">
                 </div>
-                <p class="description-text">
-                    <span class="innate">INATO:</span> Após completar os efeitos de uma habilidade, Shen ganha um escudo por <span class="stat-highlight">47–120 (+13% de vida bônus)</span> por 2.5 segundos. Se Shen acertar pelo menos um outro campeão com uma habilidade, o tempo de recarga de Ki Barrier é reduzido de <span class="stat-highlight">4–8</span> segundos (baseado no nível).
-                </p>
+            <p class="description-text" data-i18n="TwilightAssault.descricao1"></p>
+
             </div>
             <div class="secondary-info">
-                <p>Shen manifesta uma <span class="highlight-text">Espada Espiritual</span> que ele pode controlar com <img src="caminho/para/o/icone_q.png" alt="Q Icon" class="inline-icon"> Crepúsculo Assalto e <img src="caminho/para/o/icone_w.png" alt="W Icon" class="inline-icon"> Refúgio do Espírito.</p>
+            <p data-i18n="TwilightAssault.descricao2"></p>    
             </div>
         </div>
 
-        <div class="skill-container">
+        <div class="skill-detalhes">
+        <p data-i18n="TwilightAssault.detalhes"></p>
+        </div>
+</organizacao>
+
+<organizacao SpiritRefuge>
+        <div class="skill-container" id="SpiritRefugeid">
             <div class="skill-header">
-                <h3 class="skill-name">Ki Barrier</h3>
-                <span class="cooldown">COOLDOWN: 11</span>
+                <h3 class="skill-name" data-i18n="ShenSkills.SpiritRefuge">Spirit's Refuge</h3>
+                <span class="cooldown">COST: 40 energy COOLDOWN: 16 / 14.5 / 13 / 11.5 / 10 CAST TIME: none EFFECT RADIUS: 350
+</span>
             </div>
             <div class="skill-description">
                 <div class="description-icon">
-                    <img src="caminho/para/o/icone_ki_barrier.png" alt="Ki Barrier Icon" class="skill-icon">
+                    <img src="/src/assets/img/abilities/Shen_Spirit's_Refuge.png" alt="Ki Barrier Icon" class="skill-icon">
                 </div>
-                <p class="description-text">
-                    <span class="innate">INATO:</span> Após completar os efeitos de uma habilidade, Shen ganha um escudo por <span class="stat-highlight">47–120 (+13% de vida bônus)</span> por 2.5 segundos. Se Shen acertar pelo menos um outro campeão com uma habilidade, o tempo de recarga de Ki Barrier é reduzido de <span class="stat-highlight">4–8</span> segundos (baseado no nível).
-                </p>
+                <p class="description-text" data-i18n="SpiritRefuge.descricao1"></p>
             </div>
-            <div class="secondary-info">
-                <p>Shen manifesta uma <span class="highlight-text">Espada Espiritual</span> que ele pode controlar com <img src="caminho/para/o/icone_q.png" alt="Q Icon" class="inline-icon"> Crepúsculo Assalto e <img src="caminho/para/o/icone_w.png" alt="W Icon" class="inline-icon"> Refúgio do Espírito.</p>
+
+        </div>
+
+        <div class="skill-detalhes">
+        <p data-i18n="SpiritRefuge.detalhes"></p>
+        </div>
+
+</organizacao>
+
+<organizacao ShandowDash>
+        <div class="skill-container" id="ShandowDashid">
+            <div class="skill-header">
+                <h3 class="skill-name" data-i18n="ShenSkills.ShandowDash">Shadow Dash</h3>
+                <span class="cooldown">COST: 150 energy COOLDOWN: 18 / 16 / 14 / 12 / 10 CAST TIME: none TARGET RANGE: 600 / 300 COLLISION RADIUS: 60 / 150 SPEED: 800 + 100% movement speed
+</span>
+            </div>
+            <div class="skill-description">
+                <div class="description-icon">
+                    <img src="/src/assets/img/abilities/Shen_Shadow_Dash.png" alt="Ki Barrier Icon" class="skill-icon">
+                </div>
+                <p class="description-text" data-i18n="ShandowDash.descricao1"></p>
             </div>
         </div>
 
-        <div class="skill-container">
-            <div class="skill-header">
-                <h3 class="skill-name">Ki Barrier</h3>
-                <span class="cooldown">COOLDOWN: 11</span>
-            </div>
-            <div class="skill-description">
-                <div class="description-icon">
-                    <img src="caminho/para/o/icone_ki_barrier.png" alt="Ki Barrier Icon" class="skill-icon">
-                </div>
-                <p class="description-text">
-                    <span class="innate">INATO:</span> Após completar os efeitos de uma habilidade, Shen ganha um escudo por <span class="stat-highlight">47–120 (+13% de vida bônus)</span> por 2.5 segundos. Se Shen acertar pelo menos um outro campeão com uma habilidade, o tempo de recarga de Ki Barrier é reduzido de <span class="stat-highlight">4–8</span> segundos (baseado no nível).
-                </p>
-            </div>
-            <div class="secondary-info">
-                <p>Shen manifesta uma <span class="highlight-text">Espada Espiritual</span> que ele pode controlar com <img src="caminho/para/o/icone_q.png" alt="Q Icon" class="inline-icon"> Crepúsculo Assalto e <img src="caminho/para/o/icone_w.png" alt="W Icon" class="inline-icon"> Refúgio do Espírito.</p>
-            </div>
+        <div class="skill-detalhes">
+        <p data-i18n="ShandowDash.detalhes"></p>
         </div>
 
-        <div class="skill-container">
+</organizacao>
+
+<organizacao Stand United>
+        <div class="skill-container" id="StandUnitedid">
             <div class="skill-header">
-                <h3 class="skill-name">Ki Barrier</h3>
-                <span class="cooldown">COOLDOWN: 11</span>
+                <h3 class="skill-name" data-i18n="ShenSkills.StandUnited">Stand United</h3>
+                <span class="cooldown">COOLDOWN: 200 / 180 / 160 CAST TIME: none TARGET RANGE: Global</span>
             </div>
             <div class="skill-description">
                 <div class="description-icon">
-                    <img src="caminho/para/o/icone_ki_barrier.png" alt="Ki Barrier Icon" class="skill-icon">
+                    <img src="/src/assets/img/abilities/Shen_Stand_United.png" alt="Ki Barrier Icon" class="skill-icon">
+                    <br><br><img src="/src/assets/img/abilities/Shen_Stand_United_2.png" alt="Ki Barrier Icon" class="skill-icon">
                 </div>
-                <p class="description-text">
-                    <span class="innate">INATO:</span> Após completar os efeitos de uma habilidade, Shen ganha um escudo por <span class="stat-highlight">47–120 (+13% de vida bônus)</span> por 2.5 segundos. Se Shen acertar pelo menos um outro campeão com uma habilidade, o tempo de recarga de Ki Barrier é reduzido de <span class="stat-highlight">4–8</span> segundos (baseado no nível).
-                </p>
-            </div>
-            <div class="secondary-info">
-                <p>Shen manifesta uma <span class="highlight-text">Espada Espiritual</span> que ele pode controlar com <img src="caminho/para/o/icone_q.png" alt="Q Icon" class="inline-icon"> Crepúsculo Assalto e <img src="caminho/para/o/icone_w.png" alt="W Icon" class="inline-icon"> Refúgio do Espírito.</p>
+                <p class="description-text" data-i18n="StandUnited.descricao1"></p>
             </div>
         </div>
+        </div>
+                <div class="skill-detalhes">
+        <p data-i18n="StandUnited.detalhes"></p>
         </div>
         
-
+</organizacao>
             
 
-    </main>
+<div class="carousel-container" id="skinsid">
+    <div class="main-image-container">
+        <img id="main-image" src="/src/assets/img/Skins/Shen_OriginalSkin.jpg" alt="Imagem Principal">
+    </div>
+
+    <div class="description-container">
+        <p id="description-text">Texto descritivo da Imagem 1.</p>
+    </div>
+
+    <div class="thumbnails-container">
+        <img class="thumbnail active" src="/src/assets/img/skins-icon/48px-Shen_OriginalCircle.png" data-image="/src/assets/img/Skins/Shen_OriginalSkin.jpg" data-description="skins.original">
+        <img class="thumbnail" src="/src/assets/img/skins-icon/48px-Shen_FrozenCircle.png" data-image="/src/assets/img/Skins/Shen_FrozenSkin.jpg" data-description="skins.frozen">
+        <img class="thumbnail" src="/src/assets/img/skins-icon/48px-Shen_YellowJacketCircle.png" data-image="/src/assets/img/Skins/Shen_YellowJacketSkin.jpg" data-description="skins.YellowJacket">
+        <img class="thumbnail" src="/src/assets/img/skins-icon/48px-Shen_SurgeonCircle.png" data-image="/src/assets/img/Skins/Shen_SurgeonSkin.jpg" data-description="skins.Surgeon">
+        <img class="thumbnail" src="/src/assets/img/skins-icon/48px-Shen_BloodMoonCircle.png" data-image="/src/assets/img/skins/Shen_BloodMoonSkin.jpg" data-description="skins.BloodMoon">
+        <img class="thumbnail" src="/src/assets/img/skins-icon/48px-Shen_WarlordCircle.png" data-image="/src/assets/img/skins/Shen_WarlordSkin.jpg" data-description="skins.WarlordSkin">
+        <img class="thumbnail" src="/src/assets/img/skins-icon/48px-Shen_TPACircle.png" data-image="/src/assets/img/skins/Shen_TPASkin.jpg" data-description="skins.tpa">
+        <img class="thumbnail" src="/src/assets/img/skins-icon/48px-Shen_PulsefireCircle.png" data-image="/src/assets/img/skins/Shen_PulsefireSkin.jpg" data-description="skins.Pulsefire">
+        <img class="thumbnail" src="/src/assets/img/skins-icon/48px-Shen_InfernalCircle.png" data-image="/src/assets/img/skins/Shen_InfernalSkin.jpg" data-description="skins.PsyOps">
+        <img class="thumbnail" src="/src/assets/img/skins-icon/48px-Shen_PsyOpsCircle.png" data-image="/src/assets/img/skins/Shen_PsyOpsSkin.jpg" data-description="skins.Shockblade">
+        <img class="thumbnail" src="/src/assets/img/skins-icon/48px-Shen_ShockbladeCircle.png" data-image="/src/assets/img/skins/Shen_ShockbladeSkin.jpg" data-description="skins.AshenGuardian">
+        <img class="thumbnail" src="/src/assets/img/skins-icon/48px-Shen_ThreeHonorsCircle.png" data-image="/src/assets/img/skins/Shen_ThreeHonorsSkin.jpg" data-description="skins.ThreeHonors">
+
+    </div>
+</div>
+
+<div class="map-awareness-section" id="MapAwarenessid">
+    <h1 data-i18n="MapAwareness.title0"></h1>
+
+    <h2 id="Split-pushingid" data-i18n="MapAwareness.title3">Wave Management</h2>
+    <p data-i18n="MapAwareness.Split-pushing"></p><hr>
+
+    <h2 id="CurrentObjectiveid" data-i18n="MapAwareness.title4">Current Objective</h2>
+    <p data-i18n="MapAwareness.CurrentObjective"></p><hr>
+
+    <h2 id="MirroringPressureid" data-i18n="MapAwareness.title5">Mirroring Pressure</h2>
+    <p data-i18n="MapAwareness.MirroringPressure"></p>
+    <div class="image-container">
+        <img src="/src/assets/img/imgs/TZ01gZl.png" alt="Descrição da Imagem">
+    </div><hr>
+
+    <h2 id="Visionid" data-i18n="MapAwareness.title6">Vision</h2>
+    <p data-i18n="MapAwareness.Vision"></p>
+    <div class="image-container">
+        <img src="/src/assets/img/imgs/hN1bUP1.png" alt="Descrição da Imagem">
+    </div><hr>
+
+    <h2 id="StandUnitedid" data-i18n="MapAwareness.title7">Stand United</h2>
+    <p data-i18n="MapAwareness.StandUnited"></p><hr>
+    
+    <h2 id="fingersid" data-i18n="MapAwareness.title">Map Awareness</h2>
+    <p data-i18n="MapAwareness.fingers"></p>
+    <div class="image-container">
+        <img src="/src/assets/img/imgs/0G0M6Wk.png" alt="Descrição da Imagem">
+    </div><hr>
+
+    <h2 id="WaveManagementid" data-i18n="MapAwareness.title1">Wave Management</h2>
+    <p data-i18n="MapAwareness.WaveManagement"></p><hr>
+
+    <h2 id="CastTimingid" data-i18n="MapAwareness.title2">Cast Timing</h2>
+    <p data-i18n="MapAwareness.CastTiming"></p><hr>
+</div>
+</main>
 
     <footer>
         <p data-i18n="footer.copyright">© 2023 Meu Site. Todos os direitos reservados.</p>
     </footer>
 
-    <script src="/src/scripts/i18n.js" ></script>
+    <button id="scrollToTopBtn" title="Voltar ao Topo">^</button>
+
     <script src="/src/scripts/main.js"></script>
 </body>
 </html>
