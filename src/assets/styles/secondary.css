@@ -1,13 +1,13 @@
 header {
     /* Ativa o Flexbox para organizar os elementos internos */
     display: flex;
-    
+
     /* Organiza os itens em uma coluna (um embaixo do outro) */
     flex-direction: column;
-    
+
     /* Centraliza os itens horizontalmente */
     align-items: center;
-    
+
     /* Centraliza os itens verticalmente, se necessário */
     justify-content: center;
 
@@ -15,4 +15,92 @@ header {
     padding: 20px;
     color: #fff;
     text-align: center;
+}
+
+/* Opcional: Estilo para o texto "0%" */
+.percentage-text {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.pros-cons-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.pros-column,
+.cons-column {
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+    /* Faz com que as duas colunas tenham a mesma largura */
+}
+
+.pros-column {
+    background-color: #d4edda;
+    /* Verde claro */
+    color: #155724;
+    /* Verde escuro para o texto */
+}
+
+.cons-column {
+    background-color: #f8d7da;
+    /* Vermelho claro */
+    color: #721c24;
+    /* Vermelho escuro para o texto */
+}
+
+h3 {
+    margin-top: 0;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.div-interacao {
+background-color: #8a2be2;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    
+    /* Melhorias aqui */
+    max-width: 800px; /* Limita a largura máxima da div */
+    padding: 20px;    /* Adiciona espaço interno em todos os lados */
+}
+
+.lista-simples {
+  list-style-type: disc;
+}
+
+.combo-sequence {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 8px;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.combo-icon {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+}
+
+.combo-separator {
+    color: #6e0b81;
+    font-size: 2em; /* Valor aumentado para deixar a seta maior */
+    font-weight: bold;
+    margin: 0 2px;
 }

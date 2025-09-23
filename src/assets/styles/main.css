@@ -301,7 +301,7 @@ nav h2 {
     z-index: 99; /* Garante que o botão fique na frente de outros elementos */
     border: none;
     outline: none;
-    background-color: #555;
+    background-color: #601fac;
     color: white;
     cursor: pointer;
     padding: 15px;
@@ -315,7 +315,7 @@ nav h2 {
 }
 
 .carousel-container {
-    max-width: 950px;
+    max-width: 1000px;
     margin: 40px auto;
     text-align: center;
     background-color: #1a1a2e;
@@ -395,6 +395,7 @@ nav h2 {
     text-align: justify; /* Justifica o texto para bordas retas */
 }
 
+/* Container principal da tier list */
 .tier-list-container {
     display: flex;
     flex-direction: column;
@@ -406,13 +407,15 @@ nav h2 {
     background-color: #0d0d0d;
 }
 
+/* Estilo para cada linha (tier) */
 .tier-row {
     display: flex;
     align-items: center;
     border-bottom: 1px solid #333;
-    min-height: 80px; /* Garante que a linha tenha uma altura mínima para as fotos */
+    min-height: 80px;
 }
 
+/* Estilo para o rótulo da tier (S, A, B, etc.) */
 .tier-label {
     display: flex;
     align-items: center;
@@ -422,21 +425,25 @@ nav h2 {
     font-size: 1.5em;
     color: #fff;
     padding: 10px;
-    border-right: 1px solid #333;
 }
 
+/* Estilo para o conteúdo (imagens) da tier */
 .tier-content {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 10px;
     padding: 10px;
     flex-grow: 1;
+    width: 100%;
 }
 
+/* Estilo para cada imagem de campeão */
 .tier-image {
     width: 64px;
     height: 64px;
     border-radius: 4px;
+    padding: 3px;
     border: 1px solid #555;
 }
 
@@ -457,48 +464,41 @@ nav h2 {
     line-height: 1.2;
 }
 
-/* Opcional: Estilo para o texto "0%" */
-.percentage-text {
-    position: absolute;
-    bottom: 5px;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 0.8em;
-    color: rgba(255, 255, 255, 0.7);
-}
-
-.pros-cons-container {
+/* Container principal da tier list */
+.tier-list-container {
     display: flex;
-    justify-content: center;
-    gap: 20px;
-    max-width: 800px;
-    margin: 0 auto;
+    flex-direction: column;
+    width: 100%; /* Ajustado para se encaixar no layout pai */
+    max-width: 900px;
+    margin: 0; /* Removido o `auto` para centralizar via Flexbox */
     font-family: Arial, sans-serif;
+    border: 1px solid #333;
+    background-color: #0d0d0d;
 }
 
-.pros-column,
-.cons-column {
+/* --- NOVAS CLASSES PARA O LAYOUT --- */
+
+/* Layout principal para a Tier List e o Glossário */
+.main-tier-list {
+    display: flex; /* Habilita o Flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    gap: 20px; /* Adiciona espaçamento entre as colunas */
+    max-width: 1200px; /* Limita a largura total */
+    margin: 0 auto; /* Centraliza o contêiner na página */
+    padding: 20px;
+}
+
+/* Estilo para o contêiner do Glossário */
+.glossary-container {
+    flex: 1; /* Permite que o glossário ocupe o espaço disponível */
+    min-width: 250px; /* Evita que o glossário fique muito estreito */
+    background-color: #1a1a1a;
+    color: #fff;
     padding: 20px;
     border-radius: 8px;
-    flex: 1; /* Faz com que as duas colunas tenham a mesma largura */
+    border: 1px solid #444;
 }
 
-.pros-column {
-    background-color: #d4edda; /* Verde claro */
-    color: #155724; /* Verde escuro para o texto */
-}
-
-.cons-column {
-    background-color: #f8d7da; /* Vermelho claro */
-    color: #721c24; /* Vermelho escuro para o texto */
-}
-
-h3 {
-    margin-top: 0;
-    text-align: center;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
+.glossary-container h2 {
+    color: #ffd700;
 }

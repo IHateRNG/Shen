@@ -114,15 +114,10 @@ window.onscroll = function () {
 };
 
 backToTopButton.addEventListener('click', () => {
-    // Você precisa encontrar a posição do seu sumário
-    const summaryElement = document.getElementById('SumarioBackId'); // Substitua 'sumario' pelo ID do seu sumário
-
-    if (summaryElement) {
-        window.scrollTo({
-            top: summaryElement.offsetTop, // Rola para a posição do elemento
-            behavior: 'smooth'
-        });
-    }
+    window.scrollTo({
+        top: 0, // A propriedade 'top' com o valor 0 rola para o topo da página
+        behavior: 'smooth'
+    });
 });
 
 // ----------------------------------------------------
