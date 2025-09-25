@@ -69,17 +69,19 @@ ul {
 }
 
 .div-interacao {
-background-color: #8a2be2;
+    background-color: #8a2be2;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
-    
+
     /* Melhorias aqui */
-    max-width: 800px; /* Limita a largura máxima da div */
-    padding: 20px;    /* Adiciona espaço interno em todos os lados */
+    max-width: 800px;
+    /* Limita a largura máxima da div */
+    padding: 20px;
+    /* Adiciona espaço interno em todos os lados */
 }
 
 .lista-simples {
-  list-style-type: disc;
+    list-style-type: disc;
 }
 
 .combo-sequence {
@@ -100,7 +102,29 @@ background-color: #8a2be2;
 
 .combo-separator {
     color: #6e0b81;
-    font-size: 2em; /* Valor aumentado para deixar a seta maior */
+    font-size: 2em;
+    /* Valor aumentado para deixar a seta maior */
     font-weight: bold;
     margin: 0 2px;
+}
+
+.matchups {
+    /* Estilos para visualizar a div */
+    padding: 20px;
+     border: 2px solid rgb(85, 18, 76); 
+}
+
+.matchups h1 {
+    text-align: center;
+}
+
+.matchups h2 {
+    text-align: center;
+}
+
+.matchups .hr-matchups {
+  /* Estilos do HR modificado */
+height: 5px;             /* Aumenta a espessura da linha para 5 pixels */
+  background-color: rgb(0, 0, 0); /* Define a cor de fundo como preto */
+  border: none;            /* Remove a borda padrão do navegador */
 }

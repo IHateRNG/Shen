@@ -98,290 +98,306 @@
             </ol>
         </div>
 
-        <organizacao stats>
-            <div class="stats-container" id="statisticsid">
-                <div class="stats-header">
-                    <h3>Base statistics</h3>
-                    <div class="status-selector">
-                        <span>Level:</span>
-                        <select id="status-selector">
-                            <option value="n">n</option>
-                            <option value="1-18">1-18</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                            <option value="7">7</option>
-                            <option value="8">8</option>
-                            <option value="9">9</option>
-                            <option value="10">10</option>
-                            <option value="11">11</option>
-                            <option value="12">12</option>
-                            <option value="13">13</option>
-                            <option value="14">14</option>
-                            <option value="15">15</option>
-                            <option value="16">16</option>
-                            <option value="17">17</option>
-                            <option value="18">18</option>
-                        </select>
+        <skills>
+
+            <organizacao stats>
+                <div class="stats-container" id="statisticsid">
+                    <div class="stats-header">
+                        <h3>Base statistics</h3>
+                        <div class="status-selector">
+                            <span>Level:</span>
+                            <select id="status-selector">
+                                <option value="n">n</option>
+                                <option value="1-18">1-18</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <img src="/src/assets/img/icons/15px-Health_icon.png" class="stat-icon">
+                            <span class="stat-name" data-i18n="stats.hp">HP</span>
+                            <span class="stat-value" data-stat-id="hp">660</span>
+                        </div>
+                        <div class="stat-item">
+                            <img src="/src/assets/img/icons/15px-Energy_icon.png" class="stat-icon">
+                            <span class="stat-name" data-i18n="stats.energy">Energy</span>
+                            <span class="stat-value" data-stat-id="energy">400</span>
+                        </div>
+                        <div class="stat-item">
+                            <img src="/src/assets/img/icons/14px-Health_regeneration_icon.png" class="stat-icon">
+                            <span class="stat-name" data-i18n="stats.hp">HP5</span>
+                            <span class="stat-value" data-stat-id="hp">8.5</span>
+                        </div>
+                        <div class="stat-item">
+                            <img src="/src/assets/img/icons/14px-Energy_regeneration_icon.png" class="stat-icon">
+                            <span class="stat-name" data-i18n="stats.eregen">Energy regen</span>
+                            <span class="stat-value" data-stat-id="hp">50</span>
+                        </div>
+                        <div class="stat-item">
+                            <img src="/src/assets/img/icons/14px-Armor_icon.png" class="stat-icon">
+                            <span class="stat-name" data-i18n="stats.ar">AR</span>
+                            <span class="stat-value" data-stat-id="ar">34</span>
+                        </div>
+                        <div class="stat-item">
+                            <img src="/src/assets/img/icons/14px-Attack_damage_icon.png" class="stat-icon">
+                            <span class="stat-name" data-i18n="stats.ad">AD</span>
+                            <span class="stat-value" data-stat-id="ad">64</span>
+                        </div>
+                        <div class="stat-item">
+                            <img src="/src/assets/img/icons/14px-Magic_resistance_icon.png" class="stat-icon">
+                            <span class="stat-name" data-i18n="stats.mr">MR</span>
+                            <span class="stat-value" data-stat-id="mr">32</span>
+                        </div>
+                        <div class="stat-item">
+                            <img src="/src/assets/img/icons/15px-Critical_strike_damage_icon.png" class="stat-icon">
+                            <span class="stat-name" data-i18n="stats.cdmg">Crit. DMG</span>
+                            <span class="stat-value" data-stat-id="cdmg">175%</span>
+                        </div>
+                        <div class="stat-item">
+                            <img src="/src/assets/img/icons/14px-Movement_speed_icon.png" class="stat-icon">
+                            <span class="stat-name" data-i18n="stats.ms">MS</span>
+                            <span class="stat-value" data-stat-id="ms">340</span>
+                        </div>
+                        <div class="stat-item">
+                            <img src="/src/assets/img/icons/14px-Range_icon.png" class="stat-icon">
+                            <span class="stat-name" data-i18n="stats.ar">Attack range</span>
+                            <span class="stat-value" data-stat-id="ar">125</span>
+                        </div>
+                    </div>
+
+                    <h3 class="stats-header">Attack speed</h3>
+
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <span class="stat-name" data-i18n="baseas">Base AS</span>
+                            <span class="stat-value" data-stat-id="baseas">0.751</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-name" data-i18n="windup">Windup%</span>
+                            <span class="stat-value" data-stat-id="windup">17.361%</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-name" data-i18n="asratio">AS ratio</span>
+                            <span class="stat-value" data-stat-id="asratio">0.651</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-name" data-i18n="bonusas">Bonus AS</span>
+                            <span class="stat-value" data-stat-id="bonusas">3%</span>
+                        </div>
+                    </div>
+
+                    <h3 class="stats-header">Unit radius</h3>
+
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <img src="/src/assets/img/icons/20px-Gameplay_radius.png" class="stat-icon">
+                            <span class="stat-name" data-i18n="stats.gr">Gameplay radius</span>
+                            <span class="stat-value" data-stat-id="gr">65</span>
+                        </div>
+                        <div class="stat-item">
+                            <img src="/src/assets/img/icons/20px-Selection_radius.png" class="stat-icon">
+                            <span class="stat-name" data-i18n="stats.sr"> Select. radius</span>
+                            <span class="stat-value" data-stat-id="sr">100</span>
+                        </div>
+                        <div class="stat-item">
+                            <img src="/src/assets/img/icons/20px-Pathing_radius.png" class="stat-icon">
+                            <span class="stat-name" data-i18n="stats.pr"> Pathing radius</span>
+                            <span class="stat-value" data-stat-id="pr">35</span>
+                        </div>
+                        <div class="stat-item">
+                            <img src="/src/assets/img/icons/20px-Selection_height.png" class="stat-icon">
+                            <span class="stat-name" data-i18n="stats.pr"> Select. height</span>
+                            <span class="stat-value" data-stat-id="pr">175</span>
+                        </div>
+                        <div class="stat-item">
+                            <img src="/src/assets/img/icons/20px-Acquisition_range.png" class="stat-icon">
+                            <span class="stat-name" data-i18n="stats.ara"> Acq. radius</span>
+                            <span class="stat-value" data-stat-id="ara">400</span>
+                        </div>
                     </div>
                 </div>
 
-                <div class="stats-grid">
-                    <div class="stat-item">
-                        <img src="/src/assets/img/icons/15px-Health_icon.png" class="stat-icon">
-                        <span class="stat-name" data-i18n="stats.hp">HP</span>
-                        <span class="stat-value" data-stat-id="hp">660</span>
-                    </div>
-                    <div class="stat-item">
-                        <img src="/src/assets/img/icons/15px-Energy_icon.png" class="stat-icon">
-                        <span class="stat-name" data-i18n="stats.energy">Energy</span>
-                        <span class="stat-value" data-stat-id="energy">400</span>
-                    </div>
-                    <div class="stat-item">
-                        <img src="/src/assets/img/icons/14px-Health_regeneration_icon.png" class="stat-icon">
-                        <span class="stat-name" data-i18n="stats.hp">HP5</span>
-                        <span class="stat-value" data-stat-id="hp">8.5</span>
-                    </div>
-                    <div class="stat-item">
-                        <img src="/src/assets/img/icons/14px-Energy_regeneration_icon.png" class="stat-icon">
-                        <span class="stat-name" data-i18n="stats.eregen">Energy regen</span>
-                        <span class="stat-value" data-stat-id="hp">50</span>
-                    </div>
-                    <div class="stat-item">
-                        <img src="/src/assets/img/icons/14px-Armor_icon.png" class="stat-icon">
-                        <span class="stat-name" data-i18n="stats.ar">AR</span>
-                        <span class="stat-value" data-stat-id="ar">34</span>
-                    </div>
-                    <div class="stat-item">
-                        <img src="/src/assets/img/icons/14px-Attack_damage_icon.png" class="stat-icon">
-                        <span class="stat-name" data-i18n="stats.ad">AD</span>
-                        <span class="stat-value" data-stat-id="ad">64</span>
-                    </div>
-                    <div class="stat-item">
-                        <img src="/src/assets/img/icons/14px-Magic_resistance_icon.png" class="stat-icon">
-                        <span class="stat-name" data-i18n="stats.mr">MR</span>
-                        <span class="stat-value" data-stat-id="mr">32</span>
-                    </div>
-                    <div class="stat-item">
-                        <img src="/src/assets/img/icons/15px-Critical_strike_damage_icon.png" class="stat-icon">
-                        <span class="stat-name" data-i18n="stats.cdmg">Crit. DMG</span>
-                        <span class="stat-value" data-stat-id="cdmg">175%</span>
-                    </div>
-                    <div class="stat-item">
-                        <img src="/src/assets/img/icons/14px-Movement_speed_icon.png" class="stat-icon">
-                        <span class="stat-name" data-i18n="stats.ms">MS</span>
-                        <span class="stat-value" data-stat-id="ms">340</span>
-                    </div>
-                    <div class="stat-item">
-                        <img src="/src/assets/img/icons/14px-Range_icon.png" class="stat-icon">
-                        <span class="stat-name" data-i18n="stats.ar">Attack range</span>
-                        <span class="stat-value" data-stat-id="ar">125</span>
-                    </div>
-                </div>
+                <center>
+                    <p data-i18n="formula_dano"></p>
+                    <p data-i18n="formuladescricao"></p>
+                    <img src="/src/assets/img/formula/mrarmorformula.png">
+                    <p data-i18n="formuladescricao2"></p>
+                </center>
+            </organizacao>
 
-                <h3 class="stats-header">Attack speed</h3>
+            <organizacao ki barrier id="kibarrierid">
+                <div class="skills-section">
+                    <div class="skill-container">
+                        <div class="skill-header">
+                            <h3 class="skill-name" data-i18n="ShenSkills.KiBarrier">Ki Barrier</h3>
+                            <span class="cooldown">COOLDOWN: 11</span>
+                        </div>
+                        <div class="skill-description">
+                            <div class="description-icon">
+                                <img src="/src/assets/img/abilities/Shen_Ki_Barrier.png" alt="Ki Barrier Icon"
+                                    class="skill-icon">
+                            </div>
+                            <p class="description-text">
+                                <span class="KiBarrier.innate">INATO:</span data-i18n="KiBarrier.descricao1"> After
+                                completing an ability's effects, Shen grants himself a shield for 47 - 120 (based on
+                                level)
+                                (+ 13% bonus health) for 2.5 seconds. If Shen affects at least one other champion with
+                                an
+                                ability, Ki Barrier's cooldown is reduced by 4 - 8 (based on level) seconds.
+                            </p>
+                        </div>
+                        <p data-i18n="KiBarrier.descricao2">Shen manifests a Spirit Blade that he can control wit
+                            Twilight
+                            Assault and Spirit's Refuge.</p>
+                    </div>
 
-                <div class="stats-grid">
-                    <div class="stat-item">
-                        <span class="stat-name" data-i18n="baseas">Base AS</span>
-                        <span class="stat-value" data-stat-id="baseas">0.751</span>
+                    <div class="skill-detalhes">
+                        <p data-i18n="KiBarrier.detalhes"></p>
                     </div>
-                    <div class="stat-item">
-                        <span class="stat-name" data-i18n="windup">Windup%</span>
-                        <span class="stat-value" data-stat-id="windup">17.361%</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-name" data-i18n="asratio">AS ratio</span>
-                        <span class="stat-value" data-stat-id="asratio">0.651</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-name" data-i18n="bonusas">Bonus AS</span>
-                        <span class="stat-value" data-stat-id="bonusas">3%</span>
-                    </div>
-                </div>
 
-                <h3 class="stats-header">Unit radius</h3>
+            </organizacao>
 
-                <div class="stats-grid">
-                    <div class="stat-item">
-                        <img src="/src/assets/img/icons/20px-Gameplay_radius.png" class="stat-icon">
-                        <span class="stat-name" data-i18n="stats.gr">Gameplay radius</span>
-                        <span class="stat-value" data-stat-id="gr">65</span>
-                    </div>
-                    <div class="stat-item">
-                        <img src="/src/assets/img/icons/20px-Selection_radius.png" class="stat-icon">
-                        <span class="stat-name" data-i18n="stats.sr"> Select. radius</span>
-                        <span class="stat-value" data-stat-id="sr">100</span>
-                    </div>
-                    <div class="stat-item">
-                        <img src="/src/assets/img/icons/20px-Pathing_radius.png" class="stat-icon">
-                        <span class="stat-name" data-i18n="stats.pr"> Pathing radius</span>
-                        <span class="stat-value" data-stat-id="pr">35</span>
-                    </div>
-                    <div class="stat-item">
-                        <img src="/src/assets/img/icons/20px-Selection_height.png" class="stat-icon">
-                        <span class="stat-name" data-i18n="stats.pr"> Select. height</span>
-                        <span class="stat-value" data-stat-id="pr">175</span>
-                    </div>
-                    <div class="stat-item">
-                        <img src="/src/assets/img/icons/20px-Acquisition_range.png" class="stat-icon">
-                        <span class="stat-name" data-i18n="stats.ara"> Acq. radius</span>
-                        <span class="stat-value" data-stat-id="ara">400</span>
-                    </div>
-                </div>
-            </div>
-        </organizacao>
-
-        <organizacao ki barrier id="kibarrierid">
-            <div class="skills-section">
-                <div class="skill-container">
+            <organizacao TwilightAssault>
+                <div class="skill-container" id="TwilightAssaultid">
                     <div class="skill-header">
-                        <h3 class="skill-name" data-i18n="ShenSkills.KiBarrier">Ki Barrier</h3>
-                        <span class="cooldown">COOLDOWN: 11</span>
+                        <h3 class="skill-name" data-i18n="ShenSkills.TwilightAssault">Twilight Assault</h3>
+                        <span class="cooldown">COST: 140 / 130 / 120 / 110 / 100 energy COOLDOWN: 8 / 7.25 / 6.5 / 5.75
+                            / 5
+                            CAST TIME: none EFFECT RADIUS: Global WIDTH: 160 SPEED: 2000 - 5000
+                        </span>
                     </div>
                     <div class="skill-description">
                         <div class="description-icon">
-                            <img src="/src/assets/img/abilities/Shen_Ki_Barrier.png" alt="Ki Barrier Icon"
+                            <img src="/src/assets/img/abilities/Shen_Twilight_Assault.png" alt="Ki Barrier Icon"
                                 class="skill-icon">
+                            <br><br><img src="/src/assets/img/abilities/Shen_Twilight_Assault_2.png"
+                                alt="Ki Barrier Icon" class="skill-icon">
+                            <br><br><img src="/src/assets/img/abilities/Shen_Twilight_Assault_3.png"
+                                alt="Ki Barrier Icon" class="skill-icon">
                         </div>
-                        <p class="description-text">
-                            <span class="KiBarrier.innate">INATO:</span data-i18n="KiBarrier.descricao1"> After
-                            completing an ability's effects, Shen grants himself a shield for 47 - 120 (based on level)
-                            (+ 13% bonus health) for 2.5 seconds. If Shen affects at least one other champion with an
-                            ability, Ki Barrier's cooldown is reduced by 4 - 8 (based on level) seconds.
-                        </p>
+                        <p class="description-text" data-i18n="TwilightAssault.descricao1"></p>
+
                     </div>
-                    <p data-i18n="KiBarrier.descricao2">Shen manifests a Spirit Blade that he can control wit Twilight
-                        Assault and Spirit's Refuge.</p>
+                    <div class="secondary-info">
+                        <p data-i18n="TwilightAssault.descricao2"></p>
+                    </div>
                 </div>
 
                 <div class="skill-detalhes">
-                    <p data-i18n="KiBarrier.detalhes"></p>
-                </div>
-
-        </organizacao>
-
-        <organizacao TwilightAssault>
-            <div class="skill-container" id="TwilightAssaultid">
-                <div class="skill-header">
-                    <h3 class="skill-name" data-i18n="ShenSkills.TwilightAssault">Twilight Assault</h3>
-                    <span class="cooldown">COST: 140 / 130 / 120 / 110 / 100 energy COOLDOWN: 8 / 7.25 / 6.5 / 5.75 / 5
-                        CAST TIME: none EFFECT RADIUS: Global WIDTH: 160 SPEED: 2000 - 5000
-                    </span>
-                </div>
-                <div class="skill-description">
-                    <div class="description-icon">
-                        <img src="/src/assets/img/abilities/Shen_Twilight_Assault.png" alt="Ki Barrier Icon"
-                            class="skill-icon">
-                        <br><br><img src="/src/assets/img/abilities/Shen_Twilight_Assault_2.png" alt="Ki Barrier Icon"
-                            class="skill-icon">
-                        <br><br><img src="/src/assets/img/abilities/Shen_Twilight_Assault_3.png" alt="Ki Barrier Icon"
-                            class="skill-icon">
+                    <p data-i18n="TwilightAssault.detalhes"></p>
+                    <div class="div-interacao">
+                        <ul class="lista-simples">
+                            <li data-i18n="TwilightAssault.interacao0">Primeiro item da lista</li>
+                        </ul>
                     </div>
-                    <p class="description-text" data-i18n="TwilightAssault.descricao1"></p>
+                </div>
+            </organizacao>
 
-                </div>
-                <div class="secondary-info">
-                    <p data-i18n="TwilightAssault.descricao2"></p>
-                </div>
-            </div>
-
-            <div class="skill-detalhes">
-                <p data-i18n="TwilightAssault.detalhes"></p>
-                <div class="div-interacao">
-                    <ul class="lista-simples">
-                        <li data-i18n="TwilightAssault.interacao0">Primeiro item da lista</li>
-                    </ul>
-                </div>
-            </div>
-        </organizacao>
-
-        <organizacao SpiritRefuge>
-            <div class="skill-container" id="SpiritRefugeid">
-                <div class="skill-header">
-                    <h3 class="skill-name" data-i18n="ShenSkills.SpiritRefuge">Spirit's Refuge</h3>
-                    <span class="cooldown">COST: 40 energy COOLDOWN: 16 / 14.5 / 13 / 11.5 / 10 CAST TIME: none EFFECT
-                        RADIUS: 350
-                    </span>
-                </div>
-                <div class="skill-description">
-                    <div class="description-icon">
-                        <img src="/src/assets/img/abilities/Shen_Spirit's_Refuge.png" alt="Ki Barrier Icon"
-                            class="skill-icon">
+            <organizacao SpiritRefuge>
+                <div class="skill-container" id="SpiritRefugeid">
+                    <div class="skill-header">
+                        <h3 class="skill-name" data-i18n="ShenSkills.SpiritRefuge">Spirit's Refuge</h3>
+                        <span class="cooldown">COST: 40 energy COOLDOWN: 16 / 14.5 / 13 / 11.5 / 10 CAST TIME: none
+                            EFFECT
+                            RADIUS: 350
+                        </span>
                     </div>
-                    <p class="description-text" data-i18n="SpiritRefuge.descricao0"></p>
-                </div>
-
-            </div>
-
-            <div class="skill-detalhes">
-                <p data-i18n="SpiritRefuge.descricao0"></p>
-
-            </div>
-
-
-        </organizacao>
-
-        <organizacao ShandowDash>
-            <div class="skill-container" id="ShandowDashid">
-                <div class="skill-header">
-                    <h3 class="skill-name" data-i18n="ShenSkills.ShandowDash">Shadow Dash</h3>
-                    <span class="cooldown">COST: 150 energy COOLDOWN: 18 / 16 / 14 / 12 / 10 CAST TIME: none TARGET
-                        RANGE: 600 / 300 COLLISION RADIUS: 60 / 150 SPEED: 800 + 100% movement speed
-                    </span>
-                </div>
-                <div class="skill-description">
-                    <div class="description-icon">
-                        <img src="/src/assets/img/abilities/Shen_Shadow_Dash.png" alt="Ki Barrier Icon"
-                            class="skill-icon">
+                    <div class="skill-description">
+                        <div class="description-icon">
+                            <img src="/src/assets/img/abilities/Shen_Spirit's_Refuge.png" alt="Ki Barrier Icon"
+                                class="skill-icon">
+                        </div>
+                        <p class="description-text" data-i18n="SpiritRefuge.descricao0"></p>
                     </div>
-                    <p class="description-text" data-i18n="ShandowDash.descricao1"></p>
+
                 </div>
-            </div>
 
-            <div class="skill-detalhes">
-                <p data-i18n="ShandowDash.detalhes"></p>
+                <div class="skill-detalhes">
+                    <p data-i18n="SpiritRefuge.descricao0"></p>
 
-            </div>
-
-        </organizacao>
-
-        <organizacao Stand United>
-            <div class="skill-container" id="StandUnitedid">
-                <div class="skill-header">
-                    <h3 class="skill-name" data-i18n="ShenSkills.StandUnited">Stand United</h3>
-                    <span class="cooldown">COOLDOWN: 200 / 180 / 160 CAST TIME: none TARGET RANGE: Global</span>
                 </div>
-                <div class="skill-description">
-                    <div class="description-icon">
-                        <img src="/src/assets/img/abilities/Shen_Stand_United.png" alt="Ki Barrier Icon"
-                            class="skill-icon">
-                        <br><br><img src="/src/assets/img/abilities/Shen_Stand_United_2.png" alt="Ki Barrier Icon"
-                            class="skill-icon">
+
+
+            </organizacao>
+
+            <organizacao ShandowDash>
+                <div class="skill-container">
+                    <div class="skill-header">
+                        <h3 class="skill-name" data-i18n="ShenSkills.ShandowDash">Shadow Dash</h3>
+                        <span class="cooldown">COST: 150 energy COOLDOWN: 18 / 16 / 14 / 12 / 10 CAST TIME: none TARGET
+                            RANGE: 600 / 300 COLLISION RADIUS: 60 / 150 SPEED: 800 + 100% movement speed
+                        </span>
                     </div>
-                    <p class="description-text" data-i18n="StandUnited.descricao1"></p>
+                    <div class="skill-description">
+                        <div class="description-icon">
+                            <img src="/src/assets/img/abilities/Shen_Shadow_Dash.png" alt="Ki Barrier Icon"
+                                class="skill-icon">
+                        </div>
+                        <p class="description-text" data-i18n="ShandowDash.descricao1"></p>
+                    </div>
                 </div>
-            </div>
-            </div>
-            <div class="skill-detalhes">
-                <p data-i18n="StandUnited.detalhes"></p>
-                <div class="div-interacao">
-                    <ul class="lista-simples">
-                        <li>
-                            <p data-i18n="StandUnited.interacao0">Primeiro item da lista</p>
-                            <center><img src="/src/assets/img/map/ulttip.png"></center>
-                            <p data-i18n="StandUnited.interacao01">Primeiro item da lista</p>
-                        </li>
-                        <li data-i18n="StandUnited.interacao02"></li>
-                    </ul>
+
+                <div class="skill-detalhes">
+                    <p data-i18n="ShandowDash.detalhes"></p>
+
                 </div>
-            </div>
+
+            </organizacao>
+
+            <organizacao Stand United>
+                <div class="skill-container" id="StandUnitedid">
+                    <div class="skill-header">
+                        <h3 class="skill-name" data-i18n="ShenSkills.StandUnited">Stand United</h3>
+                        <span class="cooldown">COOLDOWN: 200 / 180 / 160 CAST TIME: none TARGET RANGE: Global</span>
+                    </div>
+                    <div class="skill-description">
+                        <div class="description-icon">
+                            <img src="/src/assets/img/abilities/Shen_Stand_United.png" alt="Ki Barrier Icon"
+                                class="skill-icon">
+                            <br><br><img src="/src/assets/img/abilities/Shen_Stand_United_2.png" alt="Ki Barrier Icon"
+                                class="skill-icon">
+                        </div>
+                        <p class="description-text" data-i18n="StandUnited.descricao1"></p>
+                    </div>
+                </div>
+                </div>
+                <div class="skill-detalhes">
+                    <p data-i18n="StandUnited.detalhes"></p>
+                    <div class="div-interacao">
+                        <ul class="lista-simples">
+                            <li>
+                                <p data-i18n="StandUnited.interacao0">Primeiro item da lista</p>
+                                <center><img src="/src/assets/img/map/ulttip.png"></center>
+                                <p data-i18n="StandUnited.interacao01">Primeiro item da lista</p>
+                            </li>
+                            <li data-i18n="StandUnited.interacao02"></li>
+                        </ul>
+                    </div>
+                </div>
 
 
-        </organizacao>
+            </organizacao>
+
+        </skills>
 
         <div class="map-awareness-section" id="Mechanicsid">
             <h1 data-i18n="Mechanics.title"></h1>
@@ -421,6 +437,7 @@
             <hr>
             <h2 data-i18n="Mechanics.title7"></h2>
             <p data-i18n="Mechanics.descricao7"></p>
+            <hr>
             <h2 data-i18n="Mechanics.title8"></h2>
             <p data-i18n="Mechanics.descricao8"></p>
 
@@ -468,7 +485,6 @@
 
             <h2 id="CastTimingid" data-i18n="MapAwareness.title2">Cast Timing</h2>
             <p data-i18n="MapAwareness.CastTiming"></p>
-            <hr>
         </div>
 
         <center>
@@ -694,6 +710,115 @@
         </div>
 
     </main>
+
+    <div>
+        <div class="matchups" style="background-color: #00FFFF;">
+            <h1>Free</h1><hr class="hr-matchups">
+            <h2>Zac</h2><p></p><hr>
+            <h2>Zed</h2><p></p><hr>
+        </div>
+
+        <div class="matchups" style="background-color: #00FF00;">
+            <h1>Very Easy</h1><hr class="hr-matchups">
+            <h2>Diana</h2><p></p><hr>
+            <h2>Hecarim</h2><p></p><hr>
+            <h2>Kayn (without smite)</h2><p></p><hr>
+            <h2>Lissandra</h2><p></p><hr>
+            <h2>Malphite</h2><p></p><hr>
+            <h2>Maokai</h2><p></p><hr>
+            <h2>Nasus</h2><p></p><hr>
+            <h2>Pyke</h2><p></p><hr>
+            <h2>Skarner</h2><p></p><hr>
+            <h2>Swain</h2><p></p><hr>
+            <h2>Sylas</h2><p></p><hr>
+            <h2>Wukong</h2><p></p><hr>
+        </div>
+
+        <div class="matchups" style="background-color: #7CFC00;">
+            <h1>Moderately Easy</h1><hr class="hr-matchups">
+            <h2>Akali</h2><p></p><hr>
+            <h2>Ambessa</h2><p></p><hr>
+            <h2>Camille</h2><p></p><hr>
+            <h2>Cho'Gath</h2><p></p><hr>
+            <h2>Dr.Mundo</h2><p></p><hr>
+            <h2>Garen</h2><p></p><hr>
+            <h2>Jax</h2><p></p><hr>
+            <h2>Kayle</h2><p></p><hr>
+            <h2>Kled</h2><p></p><hr>
+            <h2>K'Sante</h2><p></p><hr>
+            <h2>Lillia</h2><p></p><hr>
+            <h2>Mordekaiser</h2><p></p><hr>
+            <h2>Nocturne</h2><p></p><hr>
+            <h2>Ornn</h2><p></p><hr>
+            <h2>Poppy</h2><p></p><hr>
+            <h2>Qiyana</h2><p></p><hr>
+            <h2>Singed</h2><p></p><hr>
+            <h2>Sion</h2><p></p><hr>
+            <h2>Viktor</h2><p></p><hr>
+            <h2>Yasuo</h2><p></p><hr>
+            <h2>Yone</h2><p></p><hr>
+            <h2>Yorick</h2><p></p><hr>
+        </div>
+
+        <div class="matchups" style="background-color: #ADFF2F;">
+            <h1>Okay</h1><hr class="hr-matchups">
+            <h2>Cassio</h2><p></p><hr>
+            <h2>Gragas</h2><p></p><hr>
+            <h2>Gwen</h2><p></p><hr>
+            <h2>Illaoi</h2><p></p><hr>
+            <h2>Irelia</h2><p></p><hr>
+            <h2>Jayce</h2><p></p><hr>
+            <h2>Karma</h2><p></p><hr>
+            <h2>Kayn (with smite)</h2><p></p><hr>
+            <h2>Lee Sin</h2><p></p><hr>
+            <h2>Lucian</h2><p></p><hr>
+            <h2>Renekton</h2><p></p><hr>
+            <h2>Rengar</h2><p></p><hr>
+            <h2>Riven</h2><p></p><hr>
+            <h2>Rumble</h2><p></p><hr>
+            <h2>Smolder</h2><p></p><hr>
+            <h2>Tahm Kench</h2><p></p><hr>
+            <h2>Trundle</h2><p></p><hr>
+            <h2>Vayne</h2><p></p><hr>
+            <h2>Volibear</h2><p></p><hr>
+        </div>
+
+        <div class="matchups" style="background-color: #FFD700;">
+            <h1>Hard</h1><hr class="hr-matchups">
+            <h2>Aatrox</h2><p></p><hr>
+            <h2>Fiora</h2><p></p><hr>
+            <h2>Gangplank</h2><p></p><hr>
+            <h2>Graves</h2><p></p><hr>
+            <h2>Heimerdinger</h2><p></p><hr>
+            <h2>Kennen</h2><p></p><hr>
+            <h2>Olaf</h2><p></p><hr>
+            <h2>Quinn</h2><p></p><hr>
+            <h2>Teemo</h2><p></p><hr>
+            <h2>Udyr</h2><p></p><hr>
+            <h2>Vladimir</h2><p></p><hr>
+            <h2>Warwick</h2><p></p><hr>
+        </div>
+
+        <div class="matchups" style="background-color: #FF6600;">
+            <h1>Very Hard</h1><hr class="hr-matchups">
+            <h2>Akshan</h2><p></p><hr>
+            <h2>Aurora</h2><p></p><hr>
+            <h2>Kalista</h2><p></p><hr>
+            <h2>Neeko</h2><p></p><hr>
+            <h2>Sett</h2><p></p><hr>
+        </div>
+
+        <div class="matchups" style="background-color: #FF0000;">
+            <h1>Challenging</h1><hr class="hr-matchups">
+            <h2>Darius</h2><p></p><hr>
+            <h2>Gnar</h2><p></p><hr>
+            <h2>Pantheon</h2><p></p><hr>
+            <h2>Ryze</h2><p></p><hr>
+            <h2>Tryndamere</h2><p></p><hr>
+            <h2>Urgot</h2><p></p><hr>
+        </div>
+    </div>
+
 
     <div class="carousel-container" id="skinsid">
         <div class="main-image-container">

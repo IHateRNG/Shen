@@ -1,6 +1,9 @@
 {
   "title": "Estratégias para o Shen",
   "statisticshen": "Estatísticas",
+  "formula_dano": "Dano Reduzido (%) = (Resistência / (Resistência + 100)) * 100",
+  "formuladescricao": "Então como em alguns outros jogos existe um softcap em 200 e o hardcap em 350. Esse é o intervalo que você que quer ficar, mais que isso é disperdicio. Pois o HP será mais valioso.",
+  "formuladescricao2": "Lembre-se, caso o time inimigo errar e compor o time feito totalmente de um unico tipo de dano, então sinta-se livre para fazer qualquer coisa diferente ao atingir o hardcap, pois mas que ele será disperdicio de status",
   "header": {
     "title": "Welcome to Estratégias para o Shen",
     "subtitle": "Bem-vindo ao guia definitivo para dominar Shen, o Olho do Crepúsculo. Se você busca transcender o papel de tanque e se tornar uma verdadeira força no Rift, este é o seu lugar. Aqui, exploramos as nuances do campeão, revelando estratégias de jogo, builds ideais e a mentalidade correta para proteger seus aliados, dividir a pressão no mapa e impactar as lutas globais. Prepare-se para elevar sua maestria com Shen a um novo nível."

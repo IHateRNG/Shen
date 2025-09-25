@@ -1,6 +1,9 @@
 {
   "title": "Strategies for Shen",
   "statisticshen": "Statistic",
+  "formula_dano": "Damage Reduction (%) = (Resistance / (Resistance + 100)) * 100",
+  "formuladescricao": "So, like in some other games, there's a softcap at 200 and a hardcap at 350. That's the range you want to stay in; anything beyond that is a waste, as HP will be more valuable.",
+  "formuladescricao2": "Remember, if the enemy team misses and makes a team made entirely of a single damage type, then feel free to do anything different when hitting the hardcap, as it will be a waste of status ",
   "header": {
     "title": "Welcome to Strategies for Shen",
     "subtitle": "Welcome to the definitive guide for mastering Shen, the Eye of Twilight. If you're looking to transcend the tank role and become a true force on the Rift, you've come to the right place. Here, we'll explore the champion's nuances, revealing advanced gameplay strategies, ideal builds, and the right mindset to protect your allies, split pressure across the map, and impact global teamfights. Get ready to elevate your Shen mastery to a new level."
@@ -136,6 +139,9 @@
     "???": "<strong>???:</strong> Items I have no idea about and haven't found anything about",
     "descricao0": "Kinkou Jitte and Twilight's Edge are only there because of the name, since both make reference in some way to the Kinkou Order and Shen, which is the eye of twilight. <p>Some items are wrong on purpose, find out which ones.</p>"
   },
+  "matchupstop":{
+    "title": "Shen's top lane matchups"
+},
   "about": {
     "text": "This is a simple single-page website."
   },
