@@ -8,7 +8,7 @@
 async function setLanguage(lang) {
     try {
         localStorage.setItem('userLang', lang);
-        const response = await fetch(`./src/data/translations/${lang}.json`);
+        const response = await fetch(`src/data/translations/${lang}.json`);
         const translations = await response.json();
 
         document.querySelectorAll('[data-i18n]').forEach(element => {
@@ -70,7 +70,7 @@ function setupCarousel(translations) {
 
 async function fetchStatsData() {
     try {
-        const response = await fetch('/src/data/status/stats.json'); // Caminho unificado
+        const response = await fetch('src/data/status/stats.json'); // Caminho unificado
         return await response.json();
     } catch (error) {
         console.error('Erro ao carregar os dados das estatísticas:', error);
